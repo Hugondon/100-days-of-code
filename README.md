@@ -27,3 +27,11 @@ TODO: make resources.md an useful guide.
 **Thoughts:** Using Google Fonts seems to be useful for multiple purposes! I'm pretty sure that I will exploit it in the near future.
 
 **Link to work:** [Day Three](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days_1-5/index_day_three.html)
+
+## Day 4 | August 4th, Thursday | Styling images and general background using body tag. Adding a new file and playing with divs
+
+**Today's Progress**: Got to know some styling that can be done to images (modifying height and width in percentages, border-radius) and to the general body; added a new page and a link to it. I wanted to follow the course my way, so I modified the progress to be oriented to displaying something about Wish You Were, one of my all time favorite songs.
+
+**Thoughts:** When trying to show two images in parallel, I ran into the problem of not knowing how to do it with my current knowledge. I was happy to learning how to do it after some google searches :) (although I'm pretty sure that this is not the correct way).
+
+**Link to work:** [Day Four](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days_1-5/index_day_four.html)
