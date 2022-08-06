@@ -1,0 +1,55 @@
+body {
+  /* background-color: rgb(146, 180, 217); */
+  background-color: rgb(232, 215, 207);
+  text-align: center;
+  margin: 50px;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 48px;
+}
+p {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 16px;
+}
+a {
+  font-family: 'Fira Sans', sans-serif;
+  color: rgb(167, 1, 78);
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover {
+  font-weight: bold;
+}
+
+img {
+  width: 600px;
+  height: 360px;
+  border-radius: 20px;
+  /* width: 40%;
+  height: 20% */
+  /* border-radius: 100%/20%; */
+}
+
+#first-paragraph {
+  color: rgb(0, 0, 0);
+  line-height: 25px;
+}
+
+#syd-reference {
+  color: rgb(0, 0, 0);
+  /* color: rgb(100, 100, 255); */
+  /* text-decoration: underline; */
+}
+
+#second-html-reference {
+  color: rgb(0, 0, 0);
+  /* color: rgb(127, 127, 0); */
+}
+
+#discography-reference {
+  color: rgb(0, 0, 0);
+  /* color: rgb(100, 100, 255); */
+  /* text-decoration: underline; */
+}

@@ -43,3 +43,11 @@ TODO: make resources.md an useful guide.
 **Thoughts:** Today was specially hard to work because I was having some other things to the (play Age of Empires), but part of this challenge is learning to be constant, so here I am!
 
 **Link to work:** [Day Five](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days_1-5/index.html)
+
+## Day 6 | August 5th, Friday | Box Model + Selectors + Combinators
+
+**Today's Progress**: Today I learned about inheritance, cascading and specificity; CSS Box Model parts and their manipulation and, finally, about selectors and combinators to work with specific elements or groups of them.
+
+**Thoughts:** I felt full of energy today, so I dedicated some extra time to learning (about 30m more). I've been thinking about ideas of taking some of this knowledge into Embedded Systems world, but one step at a time...
+
+**Link to work:** [Day Six](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days_6-8/index.html)
