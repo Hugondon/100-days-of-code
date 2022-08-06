@@ -5,10 +5,6 @@ body {
   margin: 50px;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 h1 {
   font-family: 'Lato';
   color: #000000;
@@ -63,4 +59,10 @@ img {
 #second-html-reference {
   color: rgb(0, 0, 0);
   /* color: rgb(127, 127, 0); */
+}
+
+#discography-reference {
+  color: rgb(0, 0, 0);
+  /* color: rgb(100, 100, 255); */
+  /* text-decoration: underline; */
 }

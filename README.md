@@ -35,3 +35,11 @@ TODO: make resources.md an useful guide.
 **Thoughts:** When trying to show two images in parallel, I ran into the problem of not knowing how to do it with my current knowledge. I was happy to learning how to do it after some google searches :) (although I'm pretty sure that this is not the correct way).
 
 **Link to work:** [Day Four](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days_1-5/index_day_four.html)
+
+## Day 5 | August 5th, Friday | Organizing files + Live Server + Lists
+
+**Today's Progress**: Today I was introduced to a way that files can be organized in a project, to the Live Server extension on Visual Studio Code and a bit of ordered / unordered lists :).
+
+**Thoughts:** Today was specially hard to work because I was having some other things to the (play Age of Empires), but part of this challenge is learning to be constant, so here I am!
+
+**Link to work:** [Day Five](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days_1-5/index.html)

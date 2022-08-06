@@ -1,0 +1,35 @@
+img {
+  width: 600px;
+  height: 360px;
+  border-radius: 20px;
+}
+ol {
+  list-style: none;
+}
+/* li {
+  list-style: none;
+} */
+
+* {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row::after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+#first-paragraph {
+  color: rgb(0, 0, 0);
+  line-height: 25px;
+}
+
+#index-reference {
+  color: rgb(0, 0, 0);
+  /* color: rgb(127, 127, 0); */
+}
