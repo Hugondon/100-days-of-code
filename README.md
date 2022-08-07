@@ -56,6 +56,6 @@ TODO: make resources.md an useful guide.
 
 **Today's Progress**: Today I learned box-shadow, inline, blocks and inline-block properties. I also took the challenge of replicating the page that the instructor provided, thus making me learn how to use span and negative margins.
 
-**Thoughts:** The challenge was quite interesting! I tried my best to complete it without seeing the solution and I'm happy that I could make it almost equal to the one proposed. I am happy that I could follow a methodology and that I could go through the whole week without stop being consistent.
+**Thoughts:** The challenge was quite interesting! I tried my best to complete it without seeing the solution and I'm happy that I could make it almost equal to the one proposed. I am happy that I could follow a methodology and that I could go through the whole week with consistency.
 
 **Link to work:** [Day Six](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days_6-8/challenge.html)
