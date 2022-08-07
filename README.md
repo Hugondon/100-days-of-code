@@ -44,10 +44,18 @@ TODO: make resources.md an useful guide.
 
 **Link to work:** [Day Five](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days_1-5/index.html)
 
-## Day 6 | August 5th, Friday | Box Model + Selectors + Combinators
+## Day 6 | August 6th, Saturday | Box Model + Selectors + Combinators
 
 **Today's Progress**: Today I learned about inheritance, cascading and specificity; CSS Box Model parts and their manipulation and, finally, about selectors and combinators to work with specific elements or groups of them.
 
 **Thoughts:** I felt full of energy today, so I dedicated some extra time to learning (about 30m more). I've been thinking about ideas of taking some of this knowledge into Embedded Systems world, but one step at a time...
 
 **Link to work:** [Day Six](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days_6-8/index.html)
+
+## Day 7 | August 7th, Sunday | Inline-Block + Box-shadow + Challenge
+
+**Today's Progress**: Today I learned box-shadow, inline, blocks and inline-block properties. I also took the challenge of replicating the page that the instructor provided, thus making me learn how to use span and negative margins.
+
+**Thoughts:** The challenge was quite interesting! I tried my best to complete it without seeing the solution and I'm happy that I could make it almost equal to the one proposed. I am happy that I could follow a methodology and that I could go through the whole week without stop being consistent.
+
+**Link to work:** [Day Six](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days_6-8/challenge.html)
