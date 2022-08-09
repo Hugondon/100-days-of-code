@@ -58,4 +58,12 @@ TODO: make resources.md an useful guide.
 
 **Thoughts:** The challenge was quite interesting! I tried my best to complete it without seeing the solution and I'm happy that I could make it almost equal to the one proposed. I am happy that I could follow a methodology and that I could go through the whole week with consistency.
 
-**Link to work:** [Day Six](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days_6-8/challenge.html)
+**Link to work:** [Day Seven](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days_6-8/challenge.html)
+
+## Day 8 | August 8th, Monday | Classes + Challenge
+
+**Today's Progress**: Replicating another page was today's job. It involved using all the knowledge I had until this moment, including some things that I knew in concept but hadn't grounded yet (yes, I'm talking about you, classes). I also had to see a part of the tutorial because I didn't know how to add the highlight of specific list items.
+
+**Thoughts:** Again, I'm proud and happy to have almost finished today's challenge without seeing the solution. There were two specific two things that I didn't know how to do and didn't know to research about, but this was fine!
+
+**Link to work:** [Day Eight](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Day8/index.html)
