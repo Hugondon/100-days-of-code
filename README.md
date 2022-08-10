@@ -67,3 +67,11 @@ TODO: make resources.md an useful guide.
 **Thoughts:** Again, I'm proud and happy to have almost finished today's challenge without seeing the solution. There were two specific two things that I didn't know how to do and didn't know to research about, but this was fine!
 
 **Link to work:** [Day Eight](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Day8/index.html)
+
+## Day 9 | August 9th, Tuesday | Deploy + Icon + Flex-box + Background image
+
+**Today's Progress**: Today was a productive day. I learned about deployment of websites on Netlify, how to create and use your own icon for a website and how to use flex-boxes and background images as part of a new project on the course that I'm following.
+
+**Thoughts:** It is increible to see that just in nine days of work I've learned so much about HTML & CSS! I'm excited to see the result of the current project.
+
+**Link to work:** [Day Nine](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Day9-14/index.html)
