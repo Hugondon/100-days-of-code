@@ -75,3 +75,11 @@ TODO: make resources.md an useful guide.
 **Thoughts:** It is increible to see that just in nine days of work I've learned so much about HTML & CSS! I'm excited to see the result of the current project.
 
 **Link to work:** [Day Nine](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Day9-14/index.html)
+
+## Day 9 | August 9th, Tuesday | Positioning
+
+**Today's Progress**: Today I learned about positioning. I learned how absolute / relative positioning can be used to manipulate the position of an image with respect to another in a page.
+
+**Thoughts:** I like how everything I use in the course really gets together when working when trying to work to achieve some A E S T H E T I C objective.
+
+**Link to work:** [Day Ten](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Day9-14/index.html)
