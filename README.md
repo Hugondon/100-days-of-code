@@ -76,10 +76,18 @@ TODO: make resources.md an useful guide.
 
 **Link to work:** [Day Nine](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Day9-14/index.html)
 
-## Day 9 | August 9th, Tuesday | Positioning
+## Day 10 | August 10th, Wednesday | Positioning
 
 **Today's Progress**: Today I learned about positioning. I learned how absolute / relative positioning can be used to manipulate the position of an image with respect to another in a page.
 
 **Thoughts:** I like how everything I use in the course really gets together when working when trying to work to achieve some A E S T H E T I C objective.
+
+**Link to work:** [Day Ten](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Day9-14/index.html)
+
+## Day 11s | August 11th, Thursday | box-sizing + object-fit + linear-gradient
+
+**Today's Progress**: Today I kept working on the example website, combining concepts of flex-boxes, padding to fix margin collapsing and learning about linear-gradient :D. It was also nice to remember that margins are usually used to work with distances between elements and padding for the height of the container.
+
+**Thoughts:** I loved that I could finally see how to get three images on the same level with a combination of flex-boxes, box-sizing (which includes padding and border in the element's total height / weight).
 
 **Link to work:** [Day Ten](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Day9-14/index.html)
