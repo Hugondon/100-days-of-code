@@ -84,10 +84,18 @@ TODO: make resources.md an useful guide.
 
 **Link to work:** [Day Ten](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Day9-14/index.html)
 
-## Day 11s | August 11th, Thursday | box-sizing + object-fit + linear-gradient
+## Day 11 | August 11th, Thursday | box-sizing + object-fit + linear-gradient
 
 **Today's Progress**: Today I kept working on the example website, combining concepts of flex-boxes, padding to fix margin collapsing and learning about linear-gradient :D. It was also nice to remember that margins are usually used to work with distances between elements and padding for the height of the container.
 
 **Thoughts:** I loved that I could finally see how to get three images on the same level with a combination of flex-boxes, box-sizing (which includes padding and border in the element's total height / weight).
 
-**Link to work:** [Day Ten](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Day9-14/index.html)
+**Link to work:** [Day Eleven](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Day9-14/index.html)
+
+## Day 12 | August 12th, Friday | overflow + grids vs flex-boxes
+
+**Today's Progress**: Today I mainly worked with grids and the options that a developer has to configure it and its elements. It is nice to know about the existence of this kind of tool, as it is a good alternative to flex-boxes for layout design.
+
+**Thoughts:** Today was specially a hard to work because I was tired from work, but this is a challenge of discipline more than it is of coding and I am commited to finish it.
+
+**Link to work:** [Day Twelve](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Day9-14/index.html)
