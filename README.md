@@ -107,3 +107,11 @@ TODO: make resources.md an useful guide.
 **Thoughts:** There are sooo many things to learn about Web Design, I don't know why I thought that with getting some knowledge of HTML / CSS it was enough :')
 
 **Link to work:** [Day Thirteen](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Day13-15/index.html)
+
+## Day 14 | August 14th, Sunday | Units and Media Queries
+
+**Today's Progress**: Today I learned more about units used to style elements (more specifically about em and rem) and also about the concept of Media Queries and its usefulness when dealing with visualization of a site using different devices.
+
+**Thoughts:** There are sooo many things to learn about Web Design, I don't know why I thought that with getting some knowledge of HTML / CSS it was enough :')
+
+**Link to work:** [Day Fourteen](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Day13-15/index.html)
