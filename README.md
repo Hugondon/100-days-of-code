@@ -74,7 +74,7 @@ TODO: make resources.md an useful guide.
 
 **Thoughts:** It is increible to see that just in nine days of work I've learned so much about HTML & CSS! I'm excited to see the result of the current project.
 
-**Link to work:** [Day Nine](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Day9-14/index.html)
+**Link to work:** [Day Nine](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Day9-12/index.html)
 
 ## Day 10 | August 10th, Wednesday | Positioning
 
@@ -82,7 +82,7 @@ TODO: make resources.md an useful guide.
 
 **Thoughts:** I like how everything I use in the course really gets together when working when trying to work to achieve some A E S T H E T I C objective.
 
-**Link to work:** [Day Ten](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Day9-14/index.html)
+**Link to work:** [Day Ten](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Day9-12/index.html)
 
 ## Day 11 | August 11th, Thursday | box-sizing + object-fit + linear-gradient
 
@@ -90,7 +90,7 @@ TODO: make resources.md an useful guide.
 
 **Thoughts:** I loved that I could finally see how to get three images on the same level with a combination of flex-boxes, box-sizing (which includes padding and border in the element's total height / weight).
 
-**Link to work:** [Day Eleven](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Day9-14/index.html)
+**Link to work:** [Day Eleven](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Day9-12/index.html)
 
 ## Day 12 | August 12th, Friday | overflow + grids vs flex-boxes
 
@@ -98,4 +98,12 @@ TODO: make resources.md an useful guide.
 
 **Thoughts:** Today was specially a hard to work because I was tired from work, but this is a challenge of discipline more than it is of coding and I am commited to finish it.
 
-**Link to work:** [Day Twelve](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Day9-14/index.html)
+**Link to work:** [Day Twelve](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Day9-12/index.html)
+
+## Day 13 | August 13th, Saturday | HTML/CSS review + responsive design
+
+**Today's Progress**: Today I worked reviewing some of the concepts previously acquired related to HTML / CSS, before starting with responsive design of a website.
+
+**Thoughts:** There are sooo many things to learn about Web Design, I don't know why I thought that with getting some knowledge of HTML / CSS it was enough :')
+
+**Link to work:** [Day Thirteen](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Day13-15/index.html)
