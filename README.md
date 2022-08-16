@@ -115,3 +115,11 @@ TODO: make resources.md an useful guide.
 **Thoughts:** There are sooo many things to learn about Web Design, I don't know why I thought that with getting some knowledge of HTML / CSS it was enough :')
 
 **Link to work:** [Day Fourteen](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Day13-15/index.html)
+
+## Day 15 | August 15th, Monday | Side Drawer + Target Selector
+
+**Today's Progress**: Today I learned about target selectors and how they can be used in combination with the aside tag to create the effect of having a side drawer in a website.
+
+**Thoughts:** Not gonna lie, this module was really tedious for me. I'm really looking forward to start adding JavaScript to my websites, but this is a process that I have to respect, so its OK...
+
+**Link to work:** [Day Fifteen](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Day13-15/index.html)
