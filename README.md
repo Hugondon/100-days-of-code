@@ -123,3 +123,11 @@ TODO: make resources.md an useful guide.
 **Thoughts:** Not gonna lie, this module was really tedious for me. I'm really looking forward to start adding JavaScript to my websites, but this is a process that I have to respect, so its OK...
 
 **Link to work:** [Day Fifteen](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Day13-15/index.html)
+
+## Day 16 | August 16th, Tuesday | Size + Spacing + Font-size + Color
+
+**Today's Progress**: Today I learned about some tips of how to use spacing, different fonts with different sizes and combinations of grey + having a primary and an accent color to create an A E S T H E T I C site.
+
+**Thoughts:** This lecture was totally necessary, as this is the thing that worries me the most when looking to the future is the aethetical aspect of websites.
+
+**Link to work:** [Day Sixteen](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Day16-17/index.html)
