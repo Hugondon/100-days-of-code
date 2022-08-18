@@ -131,3 +131,11 @@ TODO: make resources.md an useful guide.
 **Thoughts:** This lecture was totally necessary, as this is the thing that worries me the most when looking to the future is the aethetical aspect of websites.
 
 **Link to work:** [Day Sixteen](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Day16-17/index.html)
+
+## Day 17 | August 17th, Wednesday | Selectors + Transformations / Transitions + SVG
+
+**Today's Progress**: Today I learned about transformations / transitions of elements in HTML context by scaling and changing the background color of some elements of an example website provided by the instructor. I also learned about SVG and how they can be added. Both tools can really make the difference in the visual presentation of a website!
+
+**Thoughts:** Both tools can really make the difference in the visual presentation of a website!
+
+**Link to work:** [Day Seveteen](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Day16-17/index.html)
