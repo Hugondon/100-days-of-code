@@ -139,3 +139,11 @@ TODO: make resources.md an useful guide.
 **Thoughts:** Both tools can really make the difference in the visual presentation of a website!
 
 **Link to work:** [Day Seveteen](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Day16-17/index.html)
+
+## Day 18 | August 18th, Thursday | Forms + Input types
+
+**Today's Progress**: Today I learned about elements that are necessary to create forms in websites. I learned about the manipulation of different input types (text, email, number, password, date and radio buttons) and buttons in both HTML and CSS.
+
+**Thoughts:** it was necessary to learn about these new types! I was beginning to wonder when would the course address this topic.
+
+**Link to work:** [Day Eighteen](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Day18-20/index.html)
