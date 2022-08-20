@@ -147,3 +147,11 @@ TODO: make resources.md an useful guide.
 **Thoughts:** it was necessary to learn about these new types! I was beginning to wonder when would the course address this topic.
 
 **Link to work:** [Day Eighteen](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Day18-20/index.html)
+
+## Day 19 | August 19th, Friday | Checkbox + Validations
+
+**Today's Progress**: Today I learned about the use of checkboxes in the forms context. I also learned about data validation inside the input tags (required, minlength, min) and how to use placeholders to indicate how to input data.
+
+**Thoughts:**
+
+**Link to work:** [Day Nineteen](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Day18-20/index.html)
