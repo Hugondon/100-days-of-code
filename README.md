@@ -155,3 +155,11 @@ TODO: make resources.md an useful guide.
 **Thoughts:**
 
 **Link to work:** [Day Nineteen](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Day18-20/index.html)
+
+## Day 20 | August 20th, Saturday | Challenge
+
+**Today's Progress**: Today's challenge was, once again, replicating a webstie provided by the instructor of the course. It required a lot of the concepts that I had previously learned about
+
+**Thoughts:**
+
+**Link to work:** [Day Twenty](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Day18-20/challenge/index.html)

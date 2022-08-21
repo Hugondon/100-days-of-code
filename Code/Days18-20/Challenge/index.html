@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Forms Challenge</title>
+  </head>
+  <body>
+    <header>
+      <h1>Contact Us</h1>
+    </header>
+
+    <main>
+      <form action="/action" method="GET">
+        <section>
+          <h2>
+            How can we help you?
+          </h2>
+        </section>
+
+        <section>
+          <ul>
+            <li>
+              <label for="name">Your name</label>
+              <input type="text" name="user-name" id="name" required />
+            </li>
+            <li>
+              <label for="email">Your E-Mail address</label>
+              <input type="text" name="user-email" id="email" required />
+            </li>
+            <li>
+              <label for="number">Your Phone Number</label>
+              <input
+                type="text"
+                name="user-number"
+                id="number"
+                required
+                minlength="10"
+              />
+            </li>
+
+            <li>
+              <label for="message">Your Message</label>
+              <textarea
+                name="user-message"
+                id="message"
+                required
+                rows="5"
+              ></textarea>
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <label for="find-information">How did you find us?</label>
+          <select name="find" id="find-information">
+            <option>Web Search</option>
+            <option>A friend</option>
+            <option>Social Media</option>
+          </select>
+        </section>
+
+        <section>
+          <h2>How should we reply?</h2>
+          <ul>
+            <li class="form-control-inline">
+              <input
+                type="radio"
+                name="reply"
+                id="reply-by-call"
+                value="call"
+                required
+              />
+              <label for="reply-by-call">Call me</label>
+            </li>
+            <li class="form-control-inline">
+              <input
+                type="radio"
+                name="reply"
+                id="reply-by-email"
+                value="mail"
+                required
+              />
+              <label for="reply-by-email">Send me an email</label>
+            </li>
+            <li class="form-control-inline">
+              <input
+                type="radio"
+                name="reply"
+                id="reply-none"
+                value="none"
+                required
+              />
+              <label for="reply-none">Don't reply</label>
+            </li>
+          </ul>
+        </section>
+
+        <section class="form-control-inline">
+          <input type="checkbox" id="agree-terms" name="terms" />
+          <label for="agree-terms">Agree to terms</label>
+        </section>
+
+        <section class="buttons">
+          <button id="submit-btn" type="submit">Submit</button>
+          <button id="clear-btn" type="clear">Clear Form</button>
+        </section>
+      </form>
+    </main>
+  </body>
+</html>
