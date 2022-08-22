@@ -163,3 +163,11 @@ TODO: make resources.md an useful guide.
 **Thoughts:**
 
 **Link to work:** [Day Twenty](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Day18-20/challenge/index.html)
+
+## Day 21 | August 21st, Sunday | JavaScript Basics
+
+**Today's Progress**: Today I got to know a bit more about JavaScript. I learned how to associate a script (or various scripts) to an HTML file, how to create variables, arrays and objects (with their corresponding attributes / methods) and how to use functions.
+
+**Thoughts:**
+
+**Link to work:** [Day Twenty One](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Day21/app.js)
