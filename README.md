@@ -171,3 +171,11 @@ TODO: make resources.md an useful guide.
 **Thoughts:**
 
 **Link to work:** [Day Twenty One](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Day21/app.js)
+
+## Day 22 | August 22nd, Monday | JavaScript Basics pt. 2
+
+**Today's Progress**: Today I learned about the Document Object Model (DOM) that's used in browsers and how its elements can be manipulated with different functions (getElementById, querySelector) to modify some of the HTML content of a site!
+
+**Thoughts:**
+
+**Link to work:** [Day Twenty Two](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days22-23/app.js)
