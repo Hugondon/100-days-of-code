@@ -187,3 +187,11 @@ TODO: make resources.md an useful guide.
 **Thoughts:**
 
 **Link to work:** [Day Twenty Three](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days22-23/demo.html)
+
+## Day 24 | August 24th, Wednesday | Challenge
+
+**Today's Progress**: Today I worked in a challenge that implied marking changes in the content of a website through the use of two buttons, Javascript and event listeners. I also learned that it is possible to use PowerPoint to record your screen! This is awesome!
+
+**Thoughts:**
+
+**Link to work:** [Day Twenty Three](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days24-27/exercise-2/exercise.js)
