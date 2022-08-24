@@ -1,29 +1,18 @@
-// console.log(window.document)
-console.dir(window.document)
+let paragraphElement = document.body.firstElementChild
+let inputElement = document.body.children[1]
+function changeParagraphText(event) {
+  paragraphElement.textContent = 'Clicked'
+  console.log(event)
+}
+function retrieveUserInput(event) {
+  // let enteredText = inputElement.value
+  //   let newLetter = event.data
+  let enteredText = event.target.value
+  console.log(enteredText)
+  //   console.log(event)
+}
 
-// document.body.children[1].children[0].href = 'https://www.google.com'
+// console.log(document.body)
 
-// let anchorElement = document.getElementById('external-link')
-// anchorElement.href = 'https://www.facebook.com/hugorez/'
-
-// anchorElement = document.querySelector('#external-link')
-// anchorElement.href = 'https://twitter.com/HugoRene_'
-
-// ADD AN ELEMENT
-// 1. Create the new Element
-let newAnchorElement = document.createElement('a')
-newAnchorElement.href = 'https://www.facebook.com/hugorez/'
-newAnchorElement.textContent = 'You can stalk me here'
-// 2. Get access to the parent element that should hold the new element
-let firstParagraph = document.querySelector('p')
-// 3. Insert the new element into the parent element
-firstParagraph.append(newAnchorElement)
-
-// REMOVE ELEMENTS
-// 1. Select the element that should be removed
-let firstH1Element = document.querySelector('h1')
-
-// 2. Remove it
-
-firstH1Element.remove()
-// firstH1Element.parentElement.removeChild(firstH1Element)
+// paragraphElement.addEventListener('click', changeParagraphText)
+// inputElement.addEventListener('input', retrieveUserInput)

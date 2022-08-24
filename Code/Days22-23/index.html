@@ -5,14 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Advanced Javascript</title>
-    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="demo.js" defer></script>
   </head>
   <body>
-    <h1 id="my-header">Hi there!</h1>
-    <p>New Paragraph</p>
-    <p class="new-paragraph">
-      This is a
-      <a id="external-link" href="#">link</a>
-    </p>
+    <form>
+      <div class="control">
+        <label for="product-name">Hello World pt. 2</label>
+        <input
+          type="text"
+          id="product-name"
+          name="'product-name"
+          maxlength="50"
+        />
+        <span id="charcount">
+          <span id="remaining-chars">50</span>
+          /50
+        </span>
+      </div>
+      <button>Submit</button>
+    </form>
   </body>
 </html>

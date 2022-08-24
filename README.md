@@ -179,3 +179,11 @@ TODO: make resources.md an useful guide.
 **Thoughts:**
 
 **Link to work:** [Day Twenty Two](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days22-23/app.js)
+
+## Day 23 | August 23rd, Tuesday | Events + EventListeners + Manipulation by classes
+
+**Today's Progress**: Today I learned about different types of Events and how to use EventListeners. By combining this with the previous lectures basics, I could modify the class of two different HTML elements (input and span) so that it was aesthetically altered under a certain condition.
+
+**Thoughts:**
+
+**Link to work:** [Day Twenty Three](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days22-23/demo.html)
