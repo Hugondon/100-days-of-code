@@ -194,4 +194,21 @@ TODO: make resources.md an useful guide.
 
 **Thoughts:**
 
-**Link to work:** [Day Twenty Three](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days24-27/exercise-2/exercise.js)
+**Link to work:** [Day Twenty Four](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days24-26/exercise-2/exercise.js)
+
+## Day 25 | August 25th, Thursday | Ifs / Fors
+
+**Today's Progress**: Today I learned about control structures in JavaScript, more specifically the sintaxis for ifs, fors (for of / for in) and whiles.
+I also want to share how happy I am with being done with the first quarter of this challenge 🥰
+
+**Thoughts:**
+
+**Link to work:** [Day Twenty Five](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days24-26/conditionals)
+
+## Day 26 | August 26th, Saturday | Ifs / Fors Exercises
+
+**Today's Progress**: Today I worked in a variety of exercises related to conditionals / loops in general. It was nice to practise the selection of different HTML elements on Javascript and working with more of them using specific control structures (once again, for in / for of). This was also a nice opportunity to use Math module functions!
+
+**Thoughts:**
+
+**Link to work:** [Day Twenty Six](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days24-26/loops)
