@@ -1,0 +1,55 @@
+html {
+  --background-color-1: rgb(247, 239, 247);
+  --color-grey-100: rgb(236, 236, 236);
+  --color-grey-400: rgb(134, 134, 134);
+  --color-grey-600: rgb(58, 58, 58);
+  --color-grey-900: rgb(44, 41, 44);
+
+  --color-primary-300: rgb(167, 226, 255);
+  --color-primary-700: rgb(0, 170, 255);
+
+  --size-1: 18px;
+  --size-5: 50px;
+
+  --header-color-1: rgb(140, 0, 255);
+  --header-color-2: rgb(79, 10, 190);
+  --header-color-3: rgb(245, 232, 255);
+
+  font-family: 'Anek Telugu', sans-serif;
+  font-weight: 400;
+}
+body {
+  margin: 0;
+  color: var(--color-grey-900);
+  background-color: var(--background-color-1);
+}
+
+#main-header {
+  background-color: var(--header-color-1);
+  color: white;
+  padding: 2rem 5%;
+  text-align: center;
+}
+
+.btn {
+  font: inherit;
+  padding: 0.5rem 1.5rem;
+  background-color: var(--header-color-1);
+  border: 1px solid var(--header-color-1);
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn-alt {
+  background-color: transparent;
+  border-color: transparent;
+  color: var(--header-color-1);
+}
+.btn:hover {
+  background-color: var(--header-color-2);
+  border-color: var(--header-color-2);
+}
+.btn-alt:hover {
+  background-color: var(--header-color-3);
+  border-color: transparent;
+}
