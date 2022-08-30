@@ -213,10 +213,18 @@ I also want to share how happy I am with being done with the first quarter of th
 
 **Link to work:** [Day Twenty Six](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days24-26/loops)
 
-## Day 27 | August 27th, Sunday | Milestone Project 1/3
+## Day 27 | August 28th, Sunday | Milestone Project 1/3
 
 **Today's Progress**: Today I worked on the first part of the milestone project: a tic-tac-toe! I revisited concepts including general use of HTML element and styling using CSS. An interesting new concept was the backdrop, which can be used to limit the user's interaction.
 
 **Thoughts:**
 
 **Link to work:** [Day Twenty Seven](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days27-30)
+
+## Day 28| August 29th, Monday | Milestone Project 2/3
+
+**Today's Progress**: Today I worked on the second part of the milestone project. I learned a bit more about file management and modularity in a web project and also I learned about how to create an object using new keyword (just like in C++/Java) and how to use data- attribute to store additional information about an HTML element.
+
+**Thoughts:**
+
+**Link to work:** [Day Twenty Eight](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days27-30)
