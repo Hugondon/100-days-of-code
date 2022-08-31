@@ -221,10 +221,18 @@ I also want to share how happy I am with being done with the first quarter of th
 
 **Link to work:** [Day Twenty Seven](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days27-30)
 
-## Day 28| August 29th, Monday | Milestone Project 2/3
+## Day 28 | August 29th, Monday | Milestone Project 2/3
 
 **Today's Progress**: Today I worked on the second part of the milestone project. I learned a bit more about file management and modularity in a web project and also I learned about how to create an object using new keyword (just like in C++/Java) and how to use data- attribute to store additional information about an HTML element.
 
 **Thoughts:**
 
 **Link to work:** [Day Twenty Eight](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days27-30)
+
+## Day 29 | August 30th, Tuesday | Milestone Project 3/3
+
+**Today's Progress**: Today I finished the proposed milestone project. There were plenty of concepts to build it and I'm happy that I could understand everything in it. I've set some new goals for another milestone project of mine including an ESP32 and multiple clients playing at the same time :)
+
+**Thoughts:**
+
+**Link to work:** [Day Thirty](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days27-30)

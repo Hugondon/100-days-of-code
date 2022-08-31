@@ -1,5 +1,12 @@
-// Edit Buttons
+const gameData = [
+  [0, 0, 0],
+  [0, 0, 0],
+  [0, 0, 0],
+]
+
 let editedPlayer = 0
+let activePlayer = 0
+let gameIsOver = false
 const players = [
   {
     name: '',
@@ -37,7 +44,22 @@ const errorsOutputElement = document.getElementById('config-errors')
 const gameAreaElement = document.getElementById('active-game')
 const startGameButtonElement = document.getElementById('start-game-button')
 
-const activePlayerElement = document.getElementById('active-player-name')
-
 startGameButtonElement.addEventListener('click', startNewGame)
+
 // Game Logic
+
+const gameFieldElements = document.querySelectorAll('#game-board li')
+const activePlayerNameElement = document.getElementById('active-player-name')
+let currentRound = 1
+
+for (const gameFieldElement of gameFieldElements) {
+  gameFieldElement.addEventListener('click', selectGameField)
+}
+
+gameBoardElement = document.getElementById('game-board')
+// gameBoardElement.addEventListener('click', selectGameField)
+
+// End Game
+
+const gameOverElement = document.getElementById('game-over')
+const winnerNameElement = document.getElementById('winner-name')
