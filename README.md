@@ -235,4 +235,11 @@ I also want to share how happy I am with being done with the first quarter of th
 
 **Thoughts:**
 
+**Link to work:** [Day Twenty Nine](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days27-30)
+
+## Day 30 | August 31th, Wednesday | Milestone Project 4/3
+
+**Today's Progress**: Today I worked on the first of the extra features for the milestone project: color palette selection. The objective is to make a customizable interface. Styling the buttons and implementing JavaScript logic is still missing.
+
+**Thoughts:**
 **Link to work:** [Day Thirty](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days27-30)
