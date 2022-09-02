@@ -63,3 +63,15 @@ gameBoardElement = document.getElementById('game-board')
 
 const gameOverElement = document.getElementById('game-over')
 const winnerNameElement = document.getElementById('winner-name')
+
+// Color Palette selection
+
+const firstPalleteButtonElement = document.getElementById('pallete-1-btn')
+const secondPalleteButtonElement = document.getElementById('pallete-2-btn')
+const thirdPalleteButtonElement = document.getElementById('pallete-3-btn')
+const fourthPalleteButtonElement = document.getElementById('pallete-4-btn')
+
+firstPalleteButtonElement.addEventListener('click', applyPalette)
+secondPalleteButtonElement.addEventListener('click', applyPalette)
+thirdPalleteButtonElement.addEventListener('click', applyPalette)
+fourthPalleteButtonElement.addEventListener('click', applyPalette)

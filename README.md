@@ -219,7 +219,7 @@ I also want to share how happy I am with being done with the first quarter of th
 
 **Thoughts:**
 
-**Link to work:** [Day Twenty Seven](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days27-30)
+**Link to work:** [Day Twenty Seven](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days27-31)
 
 ## Day 28 | August 29th, Monday | Milestone Project 2/3
 
@@ -227,7 +227,7 @@ I also want to share how happy I am with being done with the first quarter of th
 
 **Thoughts:**
 
-**Link to work:** [Day Twenty Eight](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days27-30)
+**Link to work:** [Day Twenty Eight](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days27-31)
 
 ## Day 29 | August 30th, Tuesday | Milestone Project 3/3
 
@@ -235,11 +235,18 @@ I also want to share how happy I am with being done with the first quarter of th
 
 **Thoughts:**
 
-**Link to work:** [Day Twenty Nine](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days27-30)
+**Link to work:** [Day Twenty Nine](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days27-31)
 
 ## Day 30 | August 31th, Wednesday | Milestone Project 4/3
 
 **Today's Progress**: Today I worked on the first of the extra features for the milestone project: color palette selection. The objective is to make a customizable interface. Styling the buttons and implementing JavaScript logic is still missing.
 
 **Thoughts:**
-**Link to work:** [Day Thirty](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days27-30)
+**Link to work:** [Day Thirty](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days27-31)
+
+## Day 31 | September 1st, Thursday | Milestone Project 5/3
+
+**Today's Progress**: Today I finished the first extra feature for the milestone project. I added four buttons to select between different color palettes for the Tic-Tac-Toe site. There were some things that I had to google because I had no idea of how to them, but that's the interesting thing of projects!
+
+**Pending Progress:** Use an ESP32 to host the site and access it remotelly!
+**Link to work:** [Day Thirty One](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days27-31)

@@ -11,57 +11,14 @@ html {
   --header-paragraph-text-color-1: --color-grey-900;
 
   --configuration-background-1: rgb(243, 227, 255);
+  --configuration-btn-1: var(--header-1-color-1);
+
   --player-name-1: rgb(50, 5, 87);
+  --player-number-1: black;
   --player-symbol-1: rgb(47, 4, 82);
 
   --inactive-game-board-1: rgb(215, 187, 247);
   --active-game-board-1: rgb(112, 13, 204);
-
-  /* Pallete #2 */
-  --header-2-color-1: #fecd70;
-  --header-1-color-1: #e3c770;
-  --header-3-color-1: #5c4104;
-
-  --header-title-text-color-1: --color-grey-900;
-  --header-paragraph-text-color-1: --color-grey-900;
-
-  --configuration-background-1: #f3e0b5;
-  --player-name-1: #5c4104;
-  --player-symbol-1: #5c4104;
-
-  --inactive-game-board-1: #fccf7a;
-  --active-game-board-1: #bea762;
-
-  /* Pallete #3 */
-  --header-1-color-1: #15133c;
-  --header-2-color-1: #73777b;
-  --header-3-color-1: #ec994b;
-
-  --header-title-text-color-1: #ffffff;
-  --header-paragraph-text-color-1: #ffffff;
-
-  --configuration-background-1: #f1eee9;
-  --player-name-1: #ec994b;
-  --player-symbol-1: #ec994b;
-
-  --inactive-game-board-1: #73777b;
-  --active-game-board-1: #15133c;
-
-  /* Pallete #4 */
-  --header-1-color-1: rgb(149, 21, 85);
-  --header-2-color-1: rgb(119, 17, 68);
-  --header-3-color-1: rgb(253, 240, 246);
-
-  --header-title-text-color-1: #ffffff;
-  --header-paragraph-text-color-1: #ffffff;
-
-  /* Cambiar también los botones para cuando se elija esta paleta */
-  --configuration-background-1: rgb(119, 17, 68);
-  --player-name-1: rgb(30, 4, 17);
-  --player-symbol-1: rgb(30, 4, 17);
-
-  --inactive-game-board-1: rgb(253, 240, 246);
-  --active-game-board-1: rgb(149, 21, 85);
 
   font-family: 'Anek Telugu', sans-serif;
   font-weight: 400;
@@ -90,12 +47,13 @@ body {
 
 #title-text h1 {
   color: var(--header-title-text-color-1);
-  font-size: 2rem;
+  font-size: 3rem;
   text-align: center;
 }
 
 #paragraph-text p {
   color: var(--header-paragraph-text-color-1);
+  font-size: 1.5rem;
 }
 
 #header-buttons ul {
@@ -108,21 +66,50 @@ body {
   text-align: right;
 }
 
+#header-buttons li button {
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+  border-radius: 5px;
+  border-width: 1px;
+}
+
 #pallete-1-btn {
-  height: 20px;
-  width: 20px;
+  background: linear-gradient(
+    135deg,
+    rgba(140, 0, 255, 1) 0%,
+    rgba(79, 10, 190, 1) 37%,
+    rgba(245, 232, 255, 1) 69%,
+    rgba(215, 187, 247, 1) 100%
+  );
 }
 #pallete-2-btn {
-  height: 20px;
-  width: 20px;
+  background: linear-gradient(
+    135deg,
+    rgba(227, 199, 112, 1) 0%,
+    rgba(254, 205, 112, 1) 44%,
+    rgba(92, 65, 4, 1) 69%,
+    rgba(243, 224, 181, 1) 88%
+  );
 }
 #pallete-3-btn {
-  height: 20px;
-  width: 20px;
+  background: linear-gradient(
+    135deg,
+    rgba(21, 19, 60, 1) 0%,
+    rgba(115, 119, 123, 1) 44%,
+    rgba(236, 153, 75, 1) 69%,
+    rgba(241, 238, 233, 1) 88%
+  );
 }
 #pallete-4-btn {
-  height: 20px;
-  width: 20px;
+  background: linear-gradient(
+    135deg,
+    rgba(149, 21, 85, 1) 0%,
+    rgba(119, 17, 68, 1) 37%,
+    rgba(253, 240, 246, 1) 79%,
+    rgba(253, 240, 246, 1) 79%,
+    rgba(235, 174, 202, 1) 100%
+  );
 }
 .btn {
   font: inherit;
@@ -136,7 +123,7 @@ body {
 .btn-alt {
   background-color: transparent;
   border-color: transparent;
-  color: var(--header-1-color-1);
+  color: var(--configuration-btn-1);
 }
 .btn:hover {
   background-color: var(--header-2-color-1);
