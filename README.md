@@ -250,3 +250,11 @@ I also want to share how happy I am with being done with the first quarter of th
 
 **Pending Progress:** Use an ESP32 to host the site and access it remotelly!
 **Link to work:** [Day Thirty One](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days27-31)
+
+## Day 32 | September 2nd, Friday | Milestone Project 6/3
+
+**Today's Progress**: Today I started working on the ESP32 firmware to use it as a server to host the Tic-Tac-Toe site and let users play wirelessly in a LAN. I'm programming it using ESP-IDF. For now, the ESP works as an AP (with a DHCP Server) and uses LEDs for status.
+
+    **Pending Progress:** Host a HTTP Server in the ESP32. Learn how to embed html / css / js files.
+
+**Link to work:** [Day Thirty Two](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days32-35)
