@@ -1,7 +1,9 @@
-# This file was automatically generated for projects
-# without default 'CMakeLists.txt' file.
-# FILE(GLOB_RECURSE app_sources ${CMAKE_SOURCE_DIR}/src/*.*)
-# # idf_component_register(SRCS ${app_sources})
+cmake_minimum_required(VERSION 3.16.0)
+include($ENV{IDF_PATH}/tools/cmake/project.cmake)
+project(WebProject)
 
-idf_component_register(SRCS main.c rgb_led.c wifi_app.c
-						INCLUDE_DIRS ".")
+target_add_binary_data(WebProject.elf "src/app.css" BINARY)
+target_add_binary_data(WebProject.elf "src/app.js" BINARY)
+target_add_binary_data(WebProject.elf "src/favicon.ico" BINARY)
+target_add_binary_data(WebProject.elf "src/index.html" BINARY)
+target_add_binary_data(WebProject.elf "src/jquery-3.3.1.min.js" BINARY)

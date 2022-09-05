@@ -1,0 +1,12 @@
+// Para código
+https://www.youtube.com/watch?v=skqjDhOowOM
+// Para uso de VSCode + PlatformIO + ESP-IDF
+https://docs.platformio.org/en/stable/tutorials/espressif32/espidf_debugging_unit_testing_analysis.html
+** Importante desactivar extensión de ESP-IDF en caso de tenerla activa **
+** Para compatibilidad cambiar el monitor del PlatformIO a monitor_speed = 115200 **
+
+Error para subir archivos css / html 
+https://community.platformio.org/t/build-error-using-esp-idf/16662/3
+
+Es necesario incluirlo en el platformio.ini
+https://docs.platformio.org/en/latest/platforms/espressif32.html#embedding-binary-data
