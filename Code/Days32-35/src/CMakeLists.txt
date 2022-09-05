@@ -4,4 +4,4 @@
 # # idf_component_register(SRCS ${app_sources})
 idf_component_register(SRCS main.c rgb_led.c wifi_app.c http_server.c
 						INCLUDE_DIRS "."
-						EMBED_FILES app.css app.js favicon.ico index.html jquery-3.3.1.min.js)
+						EMBED_FILES styles.css app.js favicon.ico index.html)

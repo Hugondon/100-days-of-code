@@ -258,3 +258,19 @@ I also want to share how happy I am with being done with the first quarter of th
     **Pending Progress:** Host a HTTP Server in the ESP32. Learn how to embed html / css / js files.
 
 **Link to work:** [Day Thirty Two](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days32-35)
+
+## Day 33 | September 3rd, Saturday | Milestone Project 7/3
+
+**Today's Progress**: Today I started working on the ESP32 firmware to use it as a server to host the Tic-Tac-Toe site and let users play wirelessly in a LAN. I'm programming it using ESP-IDF. For now, the ESP works as an AP (with a DHCP Server) and uses LEDs for status.
+
+    **Pending Progress:** Host a HTTP Server in the ESP32. Learn how to embed html / css / js files.
+
+**Link to work:** [Day Thirty Two](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days32-35)
+
+## Day 34 | September 4th, Friday | Milestone Project 8/3
+
+**Today's Progress**: Today I finally embedded HTML / CSS / JS files into the ESP32. I also created a task for the HTTP Server that handles all client's requests. I connected to the ESP using my cellphone! But there are several things to fix (responsiveness, two players, ..)
+
+**Pending Progress:** Responsiveness. Two players at the same time. Google Fonts.
+
+**Link to work:** [Day Thirty Two](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days32-35)

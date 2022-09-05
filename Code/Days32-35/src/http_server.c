@@ -19,15 +19,16 @@ static TaskHandle_t task_http_server_monitor = NULL;
 // Queue handle used to manipulate the main queue of events
 static QueueHandle_t http_server_monitor_queue_handle;
 
-// Embedded files: JQuery, index.html, app.css, app.js and favicon.ico files
-extern const uint8_t jquery_3_3_1_min_js_start[] asm("_binary_jquery_3_3_1_min_js_start");
-extern const uint8_t jquery_3_3_1_min_js_end[] asm("_binary_jquery_3_3_1_min_js_end");
+// Embedded files
 extern const uint8_t index_html_start[] asm("_binary_index_html_start");
 extern const uint8_t index_html_end[] asm("_binary_index_html_end");
-extern const uint8_t app_css_start[] asm("_binary_app_css_start");
-extern const uint8_t app_css_end[] asm("_binary_app_css_end");
+
+extern const uint8_t styles_css_start[] asm("_binary_styles_css_start");
+extern const uint8_t styles_css_end[] asm("_binary_styles_css_end");
+
 extern const uint8_t app_js_start[] asm("_binary_app_js_start");
 extern const uint8_t app_js_end[] asm("_binary_app_js_end");
+
 extern const uint8_t favicon_ico_start[] asm("_binary_favicon_ico_start");
 extern const uint8_t favicon_ico_end[] asm("_binary_favicon_ico_end");
 
@@ -79,20 +80,6 @@ static void http_server_monitor(void *parameter) {
 }
 
 /**
- * Jquery get handler is requested when accessing the web page.
- * @param req HTTP request for which the uri needs to be handled.
- * @return ESP_OK
- */
-static esp_err_t http_server_jquery_handler(httpd_req_t *req) {
-    ESP_LOGI(TAG, "Jquery requested");
-
-    httpd_resp_set_type(req, "application/javascript");
-    httpd_resp_send(req, (const char *)jquery_3_3_1_min_js_start, jquery_3_3_1_min_js_end - jquery_3_3_1_min_js_start);
-
-    return ESP_OK;
-}
-
-/**
  * Sends the index.html page.
  * @param req HTTP request for which the uri needs to be handled.
  * @return ESP_OK
@@ -111,11 +98,11 @@ static esp_err_t http_server_index_html_handler(httpd_req_t *req) {
  * @param req HTTP request for which the uri needs to be handled.
  * @return ESP_OK
  */
-static esp_err_t http_server_app_css_handler(httpd_req_t *req) {
+static esp_err_t http_server_styles_css_handler(httpd_req_t *req) {
     ESP_LOGI(TAG, "app.css requested");
 
     httpd_resp_set_type(req, "text/css");
-    httpd_resp_send(req, (const char *)app_css_start, app_css_end - app_css_start);
+    httpd_resp_send(req, (const char *)styles_css_start, styles_css_end - styles_css_start);
 
     return ESP_OK;
 }
@@ -187,14 +174,6 @@ static httpd_handle_t http_server_configure(void) {
     if (httpd_start(&http_server_handle, &config) == ESP_OK) {
         ESP_LOGI(TAG, "http_server_configure: Registering URI handlers");
 
-        // register query handler
-        httpd_uri_t jquery_js = {
-            .uri = "/jquery-3.3.1.min.js",
-            .method = HTTP_GET,
-            .handler = http_server_jquery_handler,
-            .user_ctx = NULL};
-        httpd_register_uri_handler(http_server_handle, &jquery_js);
-
         // register index.html handler
         httpd_uri_t index_html = {
             .uri = "/",
@@ -203,13 +182,13 @@ static httpd_handle_t http_server_configure(void) {
             .user_ctx = NULL};
         httpd_register_uri_handler(http_server_handle, &index_html);
 
-        // register app.css handler
-        httpd_uri_t app_css = {
-            .uri = "/app.css",
+        // register styles.css handler
+        httpd_uri_t styles_css = {
+            .uri = "/styles.css",
             .method = HTTP_GET,
-            .handler = http_server_app_css_handler,
+            .handler = http_server_styles_css_handler,
             .user_ctx = NULL};
-        httpd_register_uri_handler(http_server_handle, &app_css);
+        httpd_register_uri_handler(http_server_handle, &styles_css);
 
         // register app.js handler
         httpd_uri_t app_js = {
