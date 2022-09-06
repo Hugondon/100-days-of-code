@@ -156,13 +156,6 @@ body {
   display: none;
 }
 
-@media (min-width: 48rem) {
-  .modal {
-    left: calc(50% -20rem);
-    width: 40rem;
-  }
-}
-
 #config-overlay {
   text-align: center;
 }
@@ -292,4 +285,37 @@ body {
   background-color: var(--active-game-board-1);
   color: white;
   cursor: default;
+}
+
+@media (min-width: 48rem) {
+  .modal {
+    left: calc(50% -20rem);
+    width: 40rem;
+  }
+}
+@media (max-width: 24rem) {
+  /* Fix Header */
+  #title-text h1 {
+    font-size: 1rem;
+  }
+  #paragraph-text p {
+    padding-top: 1px;
+    font-size: 0.5rem;
+  }
+  #header-buttons ul {
+    padding: 0;
+  }
+  #header-buttons li button {
+    height: 16px;
+    width: 16px;
+    margin-right: 0.5rem;
+  }
+  #pallete-4-btn {
+    margin-right: 0;
+  }
+  /* Fix Configuration Menu */
+  .modal {
+    left: calc(50% - 11rem);
+    width: 20rem;
+  }
 }

@@ -10,3 +10,13 @@ https://community.platformio.org/t/build-error-using-esp-idf/16662/3
 
 Es necesario incluirlo en el platformio.ini
 https://docs.platformio.org/en/latest/platforms/espressif32.html#embedding-binary-data
+
+Modificar CONFIG_HTTPD_MAX_REQ_HDR_LEN porque se tarda demasiado en enviar la información :(
+    1. Al hacerlo desde ESP-IDF al parece sí se modifican archivos no relacionados a pio (build/config)
+    2. Para modificarlo con PlatformIO:
+        abrir sdkconfig
+        pio run -t menuconfig 
+        desde terminal generada con opción de PlatformIO CLI
+
+*** Pendiente areglar problema con app_main al buildear con ESP-IDF
+*** Pendiente entender por qué aunque comenté el target_add_binary_data sigue funcionando el proyecto.

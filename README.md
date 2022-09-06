@@ -265,12 +265,20 @@ I also want to share how happy I am with being done with the first quarter of th
 
     **Pending Progress:** Host a HTTP Server in the ESP32. Learn how to embed html / css / js files.
 
-**Link to work:** [Day Thirty Two](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days32-35)
+**Link to work:** [Day Thirty Three](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days32-35)
 
-## Day 34 | September 4th, Friday | Milestone Project 8/3
+## Day 34 | September 4th, Sunday | Milestone Project 8/3
 
 **Today's Progress**: Today I finally embedded HTML / CSS / JS files into the ESP32. I also created a task for the HTTP Server that handles all client's requests. I connected to the ESP using my cellphone! But there are several things to fix (responsiveness, two players, ..)
 
 **Pending Progress:** Responsiveness. Two players at the same time. Google Fonts.
 
-**Link to work:** [Day Thirty Two](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days32-35)
+**Link to work:** [Day Thirty Four](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days32-35)
+
+## Day 35 | September 5th, Monday | Milestone Project 9/3
+
+**Today's Progress**: Today I fixed the responsiveness of my Tic-Tac-Toe and added a new icon to the site. I researched more about the multiplayer feature I want to add and now I know that I need to learn more about how backend / databases work before trying that, so I'll leave that for now.
+
+**Pending Progress:** Two players at the same time pending... for now.
+
+**Link to work:** [Day Thirty Five](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days32-35)
