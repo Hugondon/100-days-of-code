@@ -282,3 +282,9 @@ I also want to share how happy I am with being done with the first quarter of th
 **Pending Progress:** Two players at the same time pending... for now.
 
 **Link to work:** [Day Thirty Five](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days32-35)
+
+## Day 36 | September 6th, Tuesday | Third-party Packages
+
+**Today's Progress**: Today I learned about the existence of Third-Party Packages and how useful they can be when developing new websites. More specifically, I worked a bit with Bootstrap and learned how to use some of its templates. Here's an example of a site made using them:
+
+**Link to work:** [Day Thirty Six](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days36)
