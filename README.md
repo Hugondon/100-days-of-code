@@ -287,4 +287,16 @@ I also want to share how happy I am with being done with the first quarter of th
 
 **Today's Progress**: Today I learned about the existence of Third-Party Packages and how useful they can be when developing new websites. More specifically, I worked a bit with Bootstrap and learned how to use some of its templates. Here's an example of a site made using them:
 
-**Link to work:** [Day Thirty Six](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days36)
+**Link to work:** [Day Thirty Six](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Day36)
+
+## Day 37 | September 7th, Wednesday | Backend Development
+
+**Today's Progress**: Today I learned about the concept of Frontend, Backend and Full-Stack development. I learned about languages that are frequently used in the backend side (Python / PHP / NodeJS) and started working with NodeJS. Here's my first hello world with it :)
+
+**Link to work:** [Day Thirty Seven](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Day37)
+
+## Day 38 | September 8th, Thursday | NodeJS + ExpressJS
+
+**Today's Progress**: Today I started working with NodeJS, creating a Server and handling specific requests. It was interesting to get an first taste of how to respond when specific urls are requested by a client!
+
+**Link to work:** [Day Thirty Eight](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days38-39)
