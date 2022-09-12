@@ -300,3 +300,21 @@ I also want to share how happy I am with being done with the first quarter of th
 **Today's Progress**: Today I started working with NodeJS, creating a Server and handling specific requests. It was interesting to get an first taste of how to respond when specific urls are requested by a client!
 
 **Link to work:** [Day Thirty Eight](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days38-39)
+
+## Day 39 | September 9th, Friday | ExpressJS + Responses
+
+**Today's Progress**: Today I continued learning about NodeJS. I explored how the Node Package Manager works (it reminded me to pip and requirements of Python) and I used it to install ExpressJS, another package useful for backend development. I used it to handle again the requests and send the same Hello World / Date response to the client, but this time with an specific function for each request
+
+**Link to work:** [Day Thirty Nine](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days38-39)
+
+## Day 40 | September 10th, Saturday | Fs + nodemon + urlencoded
+
+**Today's Progress**: Today I kept working with NodeJS. I learned how to read JSONs in a Post request body using ExpressJS functions. I also learned how to read/write files and how to use parse / stringify functions
+
+**Link to work:** [Day Forty](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days38-39)
+
+## Day 41 | September 11th, Sunday | Serving HTML Files + Static Files
+
+**Today's Progress**: Today I learned about managing files on a server-side project (views for HTML files / public for files that should be accesible for users / data for information for now, as I haven't started with the database section of the course). I also learned how to serve HTML files using sendFile function and static files using express.static() built-in middleware function.
+
+**Link to work:** [Day Forty One](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days41-42)
