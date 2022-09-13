@@ -5,5 +5,12 @@
     "cuisine": "Mexican",
     "website": "https://web.whatsapp.com/",
     "description": "Awesome"
+  },
+  {
+    "name": "Hugo",
+    "address": "Pérez",
+    "cuisine": "Cabrera",
+    "website": "http://127.0.0.1:3000/recommend",
+    "description": "Sí"
   }
 ]

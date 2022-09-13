@@ -318,3 +318,9 @@ I also want to share how happy I am with being done with the first quarter of th
 **Today's Progress**: Today I learned about managing files on a server-side project (views for HTML files / public for files that should be accesible for users / data for information for now, as I haven't started with the database section of the course). I also learned how to serve HTML files using sendFile function and static files using express.static() built-in middleware function.
 
 **Link to work:** [Day Forty One](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days41-42)
+
+## Day 42 | September 12th, Monday | EJS Templates + Dynamic Files + Includes
+
+**Today's Progress**: Today I learned about templates and its usefulness when dealing with dynamically generated content of websites. I worked with EJS and learned how to use some of its different tags in .ejs files to simplify the process of generating a website. Finally, I learned how to use includes in these template files to reuse specific sections in multiple templates <3
+
+**Link to work:** [Day Forty Two](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days41-42)
