@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Hugo",
+    "id": "r1",
+    "address": "Robert Schumann 5470",
+    "cuisine": "Mexican",
+    "website": "https://web.whatsapp.com/",
+    "description": "Awesome"
+  },
+  {
+    "name": "Hugo",
+    "id": "r2",
+    "address": "Pérez",
+    "cuisine": "Cabrera",
+    "website": "http://127.0.0.1:3000/recommend",
+    "description": "Sí"
+  },
+  {
+    "name": "Vips",
+    "address": "Mexico 123",
+    "cuisine": "Important",
+    "website": "https://asdeporte.com/evento/bimbo-global-race-guadalajara-2022",
+    "description": "It is good!",
+    "id": "88f07026-7950-4ec0-98a1-06dc959a9ed7"
+  }
+]
