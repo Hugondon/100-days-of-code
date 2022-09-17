@@ -319,8 +319,38 @@ I also want to share how happy I am with being done with the first quarter of th
 
 **Link to work:** [Day Forty One](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days41-42)
 
-## Day 42 | September 12th, Monday | EJS Templates + Dynamic Files + Includes
+## Day 42 | September 12nd, Monday | EJS Templates + Dynamic Files + Includes
 
 **Today's Progress**: Today I learned about templates and its usefulness when dealing with dynamically generated content of websites. I worked with EJS and learned how to use some of its different tags in .ejs files to simplify the process of generating a website. Finally, I learned how to use includes in these template files to reuse specific sections in multiple templates <3
 
 **Link to work:** [Day Forty Two](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days41-42)
+
+## Day 43 | September 13th, Tuesday | Dynamic Routes
+
+**Today's Progress**: Today I learned about providing access to dynamic routes using ExpressJS with the help of uuid module. I also learned more about status codes for server-side / client-side errors and how to render specific views for each case!
+
+**Link to work:** [Day Forty Three](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days43-46)
+
+## Day 44 | September 14th, Wednesday | TicTacToe: the return.
+
+**Today's Progress**: Today I wanted to use what I’ve learned so far about backend to implement the pending multiplayer functionality in the TicTacToe project I previously worked on. I had some ideas about how to make it work and implemented them, but it’s still not complete.
+
+**Link to work:** [Day Forty Four](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Day44)
+
+## Day 45| September 15th, Thursday | module.export / router
+
+**Today's Progress**: Today I put the TicTacToe project on hold and continued with the course. I learned how to create my own module and how to import functions from it into another file and how to split route configurations in different files. Now's the time for pozole!
+
+**Link to work:** [Day Forty Five](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days43-46)
+
+## Day 46 | September 16th, Friday | Query Parameters
+
+**Today's Progress**: Today I learned about query parameters and their usefulness to assign values to specific variables in the backend code. I used them to sort the elements of a list with NodeJS in the backend and a button in an EJS template in the frontend.
+
+**Link to work:** [Day Forty Six](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days43-46)
+
+## Day 47 | September 17th, Saturday | Default values / Rest Parameters / Spread operator / Error handling
+
+**Today's Progress**: Today I learned more about JavaScript language tools. I learned how to add default values to parameters, how to use rest parameters with the spread operator and how to use it to obtain data from arrays / objects as lists, how to use template literals and, finally, how to implement error handling with exceptions. Here's a proposal of mine for a new exception:
+
+**Link to work:** [Day Forty Seven](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days47-49)
