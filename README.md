@@ -353,4 +353,10 @@ I also want to share how happy I am with being done with the first quarter of th
 
 **Today's Progress**: Today I learned more about JavaScript language tools. I learned how to add default values to parameters, how to use rest parameters with the spread operator and how to use it to obtain data from arrays / objects as lists, how to use template literals and, finally, how to implement error handling with exceptions. Here's a proposal of mine for a new exception:
 
-**Link to work:** [Day Forty Seven](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days47-49)
+**Link to work:** [Day Forty Seven](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days47-48)
+
+## Day 48 | September 18th, Sunday | Objects / Destructure / Promise / Async / Await
+
+**Today's Progress**: Today I learned more about OOP in JavaScript with classes, inheritance, methods, etc. I learned different ways to destructure arrays / object properties and, finally, learned about asynchronous operations in JavaScript (including concept of promises), as well as the use of async / await keywords.
+
+**Link to work:** [Day Forty Eight](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days47-48)
