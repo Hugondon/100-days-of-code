@@ -360,3 +360,15 @@ I also want to share how happy I am with being done with the first quarter of th
 **Today's Progress**: Today I learned more about OOP in JavaScript with classes, inheritance, methods, etc. I learned different ways to destructure arrays / object properties and, finally, learned about asynchronous operations in JavaScript (including concept of promises), as well as the use of async / await keywords.
 
 **Link to work:** [Day Forty Eight](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days47-48)
+
+## Day 49 | September 19th, Monday | DBMS / SQL / NoSQL
+
+**Today's Progress**: Today I learned about different DBMS and how they are usually implemented as Relational / Non Relational. This also included some brief introduction to SQL / NoSQL concepts. Tomorrow I’ll start setting up everything to work with MySQL :)
+
+**Link to work:** [Day Forty Nine](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days49-51)
+
+## Day 50 | September 20th, Tuesday | MySQL + My first queries
+
+**Today's Progress**: Today I started working with MySQL Server Service w/ MySQL Workbench. I used the UI to create a schema and some example tables, after this, I executed some queries to start working with one of the tables! More specifically, I used INSERT INTO and SELECT FROM commands :).
+
+**Link to work:** [Day Fifty](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days49-51)

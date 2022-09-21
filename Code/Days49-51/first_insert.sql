@@ -1,0 +1,1 @@
+INSERT INTO restaurants	(name, type) VALUES ('Jaibol', 'German')
