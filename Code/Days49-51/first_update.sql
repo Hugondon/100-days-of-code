@@ -1,0 +1,1 @@
+UPDATE restaurants SET name = 'Jaibol' WHERE id=1

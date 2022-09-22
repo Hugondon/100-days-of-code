@@ -1,0 +1,1 @@
+DROP TABLE `restaurant_finder`.`restaurants`;

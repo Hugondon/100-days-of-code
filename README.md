@@ -372,3 +372,9 @@ I also want to share how happy I am with being done with the first quarter of th
 **Today's Progress**: Today I started working with MySQL Server Service w/ MySQL Workbench. I used the UI to create a schema and some example tables, after this, I executed some queries to start working with one of the tables! More specifically, I used INSERT INTO and SELECT FROM commands :).
 
 **Link to work:** [Day Fifty](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days49-51)
+
+## Day 51 | September 21st, Wednesday | Update + Delete
+
+**Today's Progress**: Today I used two other commands to complete CRUD operations: UPDATE and DELETE. I practised creating new tables that will in the end be related. I learned about some additional parameters that can be set to the elements of a table (PK, NN, AI) and, finally, also learned about the usefulness of CURRENT_TIMESTAMP when working with DATETIME data.
+
+**Link to work:** [Day Fifty One](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days49-51)
