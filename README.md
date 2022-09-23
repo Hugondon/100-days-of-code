@@ -378,3 +378,9 @@ I also want to share how happy I am with being done with the first quarter of th
 **Today's Progress**: Today I used two other commands to complete CRUD operations: UPDATE and DELETE. I practised creating new tables that will in the end be related. I learned about some additional parameters that can be set to the elements of a table (PK, NN, AI) and, finally, also learned about the usefulness of CURRENT_TIMESTAMP when working with DATETIME data.
 
 **Link to work:** [Day Fifty One](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days49-51)
+
+## Day 51 | September 22nd, Thursday | Inserting into multiple tables + Joining Related Data
+
+**Today's Progress**: Today I practised inserting data into different tables. After this, I learned how to use the JOIN clause and why merging data with it and with the help of IDs into result sets is so useful!
+
+**Link to work:** [Day Fifty Two](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days49-51)
