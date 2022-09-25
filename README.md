@@ -365,22 +365,28 @@ I also want to share how happy I am with being done with the first quarter of th
 
 **Today's Progress**: Today I learned about different DBMS and how they are usually implemented as Relational / Non Relational. This also included some brief introduction to SQL / NoSQL concepts. Tomorrow I’ll start setting up everything to work with MySQL :)
 
-**Link to work:** [Day Forty Nine](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days49-51)
+**Link to work:** [Day Forty Nine](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days49-52)
 
 ## Day 50 | September 20th, Tuesday | MySQL + My first queries
 
 **Today's Progress**: Today I started working with MySQL Server Service w/ MySQL Workbench. I used the UI to create a schema and some example tables, after this, I executed some queries to start working with one of the tables! More specifically, I used INSERT INTO and SELECT FROM commands :).
 
-**Link to work:** [Day Fifty](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days49-51)
+**Link to work:** [Day Fifty](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days49-52)
 
 ## Day 51 | September 21st, Wednesday | Update + Delete
 
 **Today's Progress**: Today I used two other commands to complete CRUD operations: UPDATE and DELETE. I practised creating new tables that will in the end be related. I learned about some additional parameters that can be set to the elements of a table (PK, NN, AI) and, finally, also learned about the usefulness of CURRENT_TIMESTAMP when working with DATETIME data.
 
-**Link to work:** [Day Fifty One](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days49-51)
+**Link to work:** [Day Fifty One](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days49-52)
 
-## Day 51 | September 22nd, Thursday | Inserting into multiple tables + Joining Related Data
+## Day 52 | September 22nd, Thursday | Inserting into multiple tables + Joining Related Data
 
 **Today's Progress**: Today I practised inserting data into different tables. After this, I learned how to use the JOIN clause and why merging data with it and with the help of IDs into result sets is so useful!
 
-**Link to work:** [Day Fifty Two](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days49-51)
+**Link to work:** [Day Fifty Two](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days49-52)
+
+## Day 53 | September 23rd, Saturday | NodeJS and mySQL :)
+
+**Today's Progress**: I started working on a new project from the course I'm following which involves connecting a web page with a SQL db, so today I started with learning how to execute queries from NodeJS using mysql2 module and inserting the result into a EJS template :)
+
+**Link to work:** [Day Fifty Three](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days53-55)
