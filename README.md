@@ -390,3 +390,9 @@ I also want to share how happy I am with being done with the first quarter of th
 **Today's Progress**: I started working on a new project from the course I'm following which involves connecting a web page with a SQL db, so today I started with learning how to execute queries from NodeJS using mysql2 module and inserting the result into a EJS template :)
 
 **Link to work:** [Day Fifty Three](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days53-55)
+
+## Day 54 | September 24th, Sunday | mySQL2
+
+**Today's Progress**: I continued working in the course project, I learned about some utilities of the mysql2 module when running an insert query with the information of a form. I also combined some of the knowledge I already got from the previous module regarding the JOIN command to show specific information in the frontend page!
+
+**Link to work:** [Day Fifty Four](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days53-55)
