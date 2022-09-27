@@ -396,3 +396,9 @@ I also want to share how happy I am with being done with the first quarter of th
 **Today's Progress**: I continued working in the course project, I learned about some utilities of the mysql2 module when running an insert query with the information of a form. I also combined some of the knowledge I already got from the previous module regarding the JOIN command to show specific information in the frontend page!
 
 **Link to work:** [Day Fifty Four](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days53-55)
+
+## Day 55 | September 25th, Monday |
+
+**Today's Progress**: Today I finished the project of the course that involved using NodeJS and a mySQL service. It required practising the use of queries that involved joining data of different tables and using a lot the utilities of EJS Templates. I also learned about the existence of pre-wrap in CSS and address / time HTML tags.
+
+**Link to work:** [Day Fifty Five](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days53-55)
