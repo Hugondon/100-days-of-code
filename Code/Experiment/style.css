@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+section {
+  height: 100vh;
+  overflow: hidden;
+  background-color: #000;
+}
+
+p {
+  position: relative;
+  font-size: 1.5em;
+  letter-spacing: -0.05em;
+  line-height: 0.7em;
+  /* background: url(hugo.jpg), url(hugo.jpg); */
+  /* background: url(pink_floyd.jpg), url(pink_floyd.jpg); */
+  /* background: url(graduacion.jpg), url(graduacion.jpg); */
+  background: url(profile.JPG), url(profile.JPG);
+  background-blend-mode: color-dodge;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-clip: text;
+  color: transparent;
+}
