@@ -403,14 +403,26 @@ I also want to share how happy I am with being done with the first quarter of th
 
 **Link to work:** [Day Fifty Five](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days53-55)
 
-## Day 59 | October 4th, Tuesday |
+## Day 56 & 57| October 1st & 2nd | Research
+
+**Today's Progress**: I've been working on implementing the multiplayer feature to the TicTacToe in which I worked previously. My current approach is using a MySQL schema to save the board information (this is probably an overkill, but it's the only way I can think of).
+
+**Link to work:**
+
+## Day 58 | October 3rd, Tuesday | Research
+
+**Today's Progress**: I researched a bit about different approaches that can be used to implement the multiplayer feature I want to add in my game and found out about the existence of http://socket.io. Tomorrow I'll do further research about it!
+
+**Link to work:**
+
+## Day 59 | October 4th, Tuesday | Wesockets
 
 **Today's Progress**: Today I learned about the concept of websockets and, more concretely, followed a tutorial that used socket.io. I understood pretty much about it, how to use on / emit methods for communication between the server and the browser. A little project developed for the tutorial was this browser chat application:
 
 **Link to work:** [Day Fifty Nine](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Day59)
 
-## Day 60 | October 5th, Wednesday |
+## Day 60 | October 5th, Wednesday | Multiplayer
 
-**Today's Progress**:
+**Today's Progress**: Today I finally implemented the multiplayer feature on my TicTacToe game using Websockets! Although I'm sure it is not the most efficient implementation, but I'm happy that I could do it using the knowledge on HTML / JS and Websockets that I have acquired during this challenge <3.
 
-**Link to work:** [Day Sixty](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Day59)
+**Link to work:** [Day Sixty](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Day60)
