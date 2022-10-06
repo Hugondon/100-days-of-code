@@ -402,3 +402,15 @@ I also want to share how happy I am with being done with the first quarter of th
 **Today's Progress**: Today I finished the project of the course that involved using NodeJS and a mySQL service. It required practising the use of queries that involved joining data of different tables and using a lot the utilities of EJS Templates. I also learned about the existence of pre-wrap in CSS and address / time HTML tags.
 
 **Link to work:** [Day Fifty Five](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days53-55)
+
+## Day 59 | October 4th, Tuesday |
+
+**Today's Progress**: Today I learned about the concept of websockets and, more concretely, followed a tutorial that used socket.io. I understood pretty much about it, how to use on / emit methods for communication between the server and the browser. A little project developed for the tutorial was this browser chat application:
+
+**Link to work:** [Day Fifty Nine](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Day59)
+
+## Day 60 | October 5th, Wednesday |
+
+**Today's Progress**:
+
+**Link to work:** [Day Sixty](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Day59)
