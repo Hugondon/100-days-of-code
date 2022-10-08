@@ -426,3 +426,15 @@ I also want to share how happy I am with being done with the first quarter of th
 **Today's Progress**: Today I finally implemented the multiplayer feature on my TicTacToe game using Websockets! Although I'm sure it is not the most efficient implementation, but I'm happy that I could do it using the knowledge on HTML / JS and Websockets that I have acquired during this challenge <3.
 
 **Link to work:** [Day Sixty](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Day60)
+
+## Day 61 | October 6th, Thursday | Pomodoro 1/7
+
+**Today's Progress**: Today I finally implemented the multiplayer feature on my TicTacToe game using Websockets! Although I'm sure it is not the most efficient implementation, but I'm happy that I could do it using the knowledge on HTML / JS and Websockets that I have acquired during this challenge <3.
+
+**Link to work:** [Day Sixty-One](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days61-67)
+
+## Day 62 | October 7th, Friday | Pomodoro 2/7
+
+**Today's Progress**: Today I started working on this Pomodoro Timer site replica. The first thing I did was saving almost all the colors into a CSS file using Paint, then I started working on copying the static things on the site. This is the current progress:
+
+**Link to work:** [Day Sixty-Two](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days61-67)
