@@ -438,3 +438,9 @@ I also want to share how happy I am with being done with the first quarter of th
 **Today's Progress**: Today I started working on this Pomodoro Timer site replica. The first thing I did was saving almost all the colors into a CSS file using Paint, then I started working on copying the static things on the site. This is the current progress:
 
 **Link to work:** [Day Sixty-Two](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days61-67)
+
+## Day 63 | October 8th, Saturday | Pomodoro 3/7
+
+**Today's Progress**: Today I kept working on the replica of the Pomodoro Timer. I could replicate the buttons, but I didn't want to copy the Logo / SVGs, so maybe I'll create my own later. For now it looks good, although there's plenty of work left to do!
+
+**Link to work:** [Day Sixty-Three](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days61-67)

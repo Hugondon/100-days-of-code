@@ -24,15 +24,102 @@ body {
   background-color: var(--background-color-1);
 }
 
+#page-logo a {
+  padding-right: 0.5rem;
+  font-family: 'Baloo 2', cursive;
+  color: var(--btn-1);
+  font-size: 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
 #pomodoro {
   background-color: var(--background-color-1);
   color: var(--btn-1);
 }
 #first-row {
-  padding: 2rem 0.5rem;
+  padding: 1rem 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 #second-row {
-  padding: 2rem 0.5rem;
+  margin: 0;
+  padding: 0rem 0.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+#third-row {
+  margin: 0;
+  padding-top: 2rem;
+}
+
+#fourth-row {
+  margin: 0;
+  text-align: center;
+}
+
+#first-row button {
+  background: var(btn-1);
+  color: var(--btn-font-color);
+  height: 3rem;
+  width: 15rem;
+
+  margin: 0 1rem;
+  padding: 0 0.5rem 0 0.5rem;
+  border-radius: 2rem;
+  border-color: transparent;
+
+  font: inherit;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#second-row button {
+  background: var(btn-1);
+  color: var(--btn-font-color);
+  height: 4rem;
+  width: 15rem;
+
+  margin-right: 25px;
+  padding: 0 0.5rem 0 0.5rem;
+  border-radius: 2rem;
+  border-color: transparent;
+
+  font: inherit;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#first-row button:hover {
+  background: var(--btn-alt-1);
+  cursor: pointer;
+}
+
+#second-row button:hover {
+  background: var(--btn-alt-1);
+  cursor: pointer;
+}
+
+#third-row p {
+  text-align: center;
+  font-size: 4rem;
+}
+
+#third-row img {
+  margin: 0 auto;
+  display: block;
+}
+
+#fourth-row p {
+  font: inherit;
+  font-size: 8rem;
+  font-weight: bold;
+  color: var(--counter-font-color);
 }
 
 #todo {
@@ -45,17 +132,4 @@ body {
   background-color: var(--background-color-3);
   color: var(--btn-1);
   margin: 0;
-}
-
-.pomodoro-btn {
-  background-color: var(btn-1);
-  color: var(--btn-font-color);
-
-  padding: 0 1.5rem 0 1rem;
-  border-radius: 1rem;
-  border-color: transparent;
-
-  font-size: 1.5rem;
-  font-weight: bold;
-  text-transform: uppercase;
 }
