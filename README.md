@@ -444,3 +444,9 @@ I also want to share how happy I am with being done with the first quarter of th
 **Today's Progress**: Today I kept working on the replica of the Pomodoro Timer. I could replicate the buttons, but I didn't want to copy the Logo / SVGs, so maybe I'll create my own later. For now it looks good, although there's plenty of work left to do!
 
 **Link to work:** [Day Sixty-Three](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days61-67)
+
+## Day 64 | October 9th, Sunday | Pomodoro 4/7
+
+**Today's Progress**: Today I continued working on the Pomodoro Timer site. I had some problems because the div that contains the timer added some space and I didn't know why, but I solved it by overriding div's margin and padding in the CSS file. I also added some SVGs :)
+
+**Link to work:** [Day Sixty-Four](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days61-67)
