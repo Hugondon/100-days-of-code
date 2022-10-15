@@ -450,3 +450,27 @@ I also want to share how happy I am with being done with the first quarter of th
 **Today's Progress**: Today I continued working on the Pomodoro Timer site. I had some problems because the div that contains the timer added some space and I didn't know why, but I solved it by overriding div's margin and padding in the CSS file. I also added some SVGs :)
 
 **Link to work:** [Day Sixty-Four](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days61-67)
+
+## Day 65 | October 10th, Monday | C++ 1/3
+
+**Today's Progress**: Today I had to pause the project that I've been working on because I'll be presenting a C++ certification exam on thursday and I want to focus on that, so I solved the tests for the first three modules of a course related to it.
+
+**Link to work:** -
+
+## Day 66 | October 11th, Tuesday | C++ 2/3
+
+**Today's Progress**: today I continued with the C++ course…
+
+**Link to work:** -
+
+## Day 67 | October 12th, Wednesday | C++ 3/3
+
+**Today's Progress**: Today I finished the C++ course modules, which included topics like exceptions, operators overload and more about inheritance and polymorphism. Let's see how the test goes!
+
+**Link to work:** -
+
+## Day 68 | October 13th, Friday | Pomodoro 5/7
+
+**Today's Progress**: Today I resumed the Pomodoro Timer project. I solved some issues related to the buttons and the counter font. I also added the section! For the frontend there's just some few things left before starting with the backend. Here's the project for now:
+
+**Link to work:** -

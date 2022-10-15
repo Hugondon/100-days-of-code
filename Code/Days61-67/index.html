@@ -12,7 +12,9 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
-    <title>Pomodoro Timer</title>
+    <script src="app.js" defer></script>
+
+    <title>(0:0) Pomodoro Timer</title>
   </head>
   <body>
     <section id="pomodoro">
@@ -50,8 +52,9 @@
           viewBox="0 0 24 24"
           stroke-width="1.5"
           stroke="currentColor"
-          class="w-6 h-6"
+          class="button-svg"
           id="restart-1-svg"
+          onclick="restartCurrentTimer();"
         >
           <path
             stroke-linecap="round"
@@ -66,8 +69,9 @@
           viewBox="0 0 24 24"
           stroke-width="1.5"
           stroke="currentColor"
-          class="w-6 h-6"
+          class="button-svg"
           id="restart-2-svg"
+          onclick="restartLoopTimer();"
         >
           <path
             stroke-linecap="round"
@@ -82,8 +86,9 @@
           viewBox="0 0 24 24"
           stroke-width="1.5"
           stroke="currentColor"
-          class="w-6 h-6"
+          class="button-svg"
           id="play-svg"
+          onclick="startTimer();"
         >
           <path
             stroke-linecap="round"
@@ -97,8 +102,9 @@
           viewBox="0 0 24 24"
           stroke-width="1.5"
           stroke="currentColor"
-          class="w-6 h-6"
+          class="button-svg"
           id="stop-svg"
+          onclick="stopTimer();"
         >
           <path
             stroke-linecap="round"
@@ -109,7 +115,22 @@
       </div>
     </section>
     <section id="todo">
-      <h1>TODO</h1>
+      <img src="images/todo-label.svg" alt="Todo Label" id="todo-svg" />
+      <div id="todo-notes">
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+      </div>
+      <button id="todo-btn">Add To Do</button>
+      <p>&nbsp;</p>
     </section>
     <section id="credits">
       <h1>Extra Information</h1>

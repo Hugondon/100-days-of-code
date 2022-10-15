@@ -4,8 +4,11 @@ html {
   --background-color-3: var(--background-color-1);
 
   --btn-font-color: rgb(218, 76, 86);
+  --btn-font-color-2: rgb(255, 255, 255);
   --btn-1: rgb(255, 236, 228);
+  --btn-2: rgb(207, 67, 59);
   --btn-alt-1: rgb(255, 201, 182);
+  --btn-alt-2: rgb(231, 150, 121);
 
   --todo-list-font: rgb(33, 37, 41);
   --todo-checkbox: rgb(220, 53, 69);
@@ -89,13 +92,13 @@ td {
 }
 #fifth-row {
   margin: 0;
-  padding: 0rem 0.5rem;
+  padding: 0.5rem 0.5rem;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 #first-row button {
-  background: var(btn-1);
+  background: var(--btn-1);
   color: var(--btn-font-color);
   height: 3rem;
   width: 15rem;
@@ -112,7 +115,7 @@ td {
 }
 
 #second-row button {
-  background: var(btn-1);
+  background: var(--btn-1);
   color: var(--btn-font-color);
   height: 4rem;
   width: 15rem;
@@ -144,16 +147,16 @@ td {
 }
 
 #third-row img {
-  width: 30%;
-  height: 30%;
+  width: 28%;
+  height: 28%;
   margin: 0 auto;
   display: block;
 }
 
 #fourth-row span {
-  font: inherit;
-  font-size: 8rem;
-  font-weight: bold;
+  font-family: 'Helvetica Neue', 'Helvetica', 'Arial';
+  font-size: 6rem;
+  font-weight: 900;
   color: var(--counter-font-color);
 }
 
@@ -180,10 +183,46 @@ td {
   height: 5%;
 }
 
+#todo-svg {
+  width: 30%;
+  height: 30%;
+}
+
+.button-svg:hover {
+  background: var(--btn-alt-2);
+  cursor: pointer;
+}
+
 #todo {
   background-color: var(--background-color-2);
   color: var(--todo-list-font);
   margin: 0;
+}
+
+#todo-svg {
+  margin-top: 1rem;
+  margin-left: 3rem;
+}
+#todo-btn {
+  display: block;
+  margin-right: 10rem;
+  margin-left: auto;
+  margin-bottom: 1rem;
+
+  background: var(--btn-2);
+  color: var(--btn-font-color-2);
+
+  padding: 0 0.5rem 0 0.5rem;
+  border-radius: 2rem;
+  border-color: transparent;
+
+  font: inherit;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+#todo-btn {
+  cursor: pointer;
 }
 
 #credits {
