@@ -54,6 +54,14 @@ td {
   border: 0;
 }
 
+ul {
+  list-style: none;
+}
+
+button {
+  transition: 0.3s;
+}
+
 #page-logo a {
   padding-right: 0.5rem;
   font-family: 'Baloo 2', cursive;
@@ -227,6 +235,21 @@ td {
 
 #credits {
   background-color: var(--background-color-3);
-  color: var(--btn-1);
+  padding: 36px 0;
   margin: 0;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+}
+footer li {
+  width: 4.5rem;
+  height: 4.5rem;
+  margin: 0 4rem;
+}
+
+footer img {
+  width: 80%;
+  height: 80%;
 }

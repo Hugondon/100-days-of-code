@@ -11,26 +11,41 @@
       href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="overlays.css" />
     <link rel="stylesheet" href="styles.css" />
+    <script src="info.js" defer></script>
+    <script src="svgInteraction.js" defer></script>
+    <script src="timerInteraction.js" defer></script>
+    <script src="todoInteraction.js" defer></script>
     <script src="app.js" defer></script>
 
     <title>(0:0) Pomodoro Timer</title>
   </head>
   <body>
+    <div id="backdrop" class="backdrop"></div>
     <section id="pomodoro">
+      <aside class="modal" id="custom-timer-overlay">
+        <h2>Enter Custom Timer</h2>
+      </aside>
+      <aside class="modal" id="pomodoro-information-overlay">
+        <h2>What is Pomodoro Timer</h2>
+      </aside>
+      <aside class="modal" id="francesco-information-overlay">
+        <h2>Who is Francesco Cirillo?</h2>
+      </aside>
       <div id="first-row">
         <div id="page-logo">
           <a href="index.html">Pomodoro Timer</a>
         </div>
-        <button>Custom Timer</button>
-        <button>What is Pomodoro Timer?</button>
-        <button>Who is Franceso Cirillo?</button>
+        <button id="custom-timer-btn">Custom Timer</button>
+        <button id="pomodoro-info-btn">What is Pomodoro Timer?</button>
+        <button id="francesco-info-btn">Who is Franceso Cirillo?</button>
       </div>
       <div id="second-row">
-        <button>Pomodoro</button>
-        <button>Short Break</button>
-        <button>Long Break</button>
-        <button>Loop</button>
+        <button id="pomodoro-timer-btn">Pomodoro</button>
+        <button id="short-break-btn">Short Break</button>
+        <button id="long-break-btn">Long Break</button>
+        <button id="loop-btn">Loop</button>
       </div>
       <div id="third-row">
         <p>
@@ -117,23 +132,57 @@
     <section id="todo">
       <img src="images/todo-label.svg" alt="Todo Label" id="todo-svg" />
       <div id="todo-notes">
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
+        <ul>
+          <li>
+            <p>&nbsp;</p>
+          </li>
+          <li>
+            <p>&nbsp;</p>
+          </li>
+          <li>
+            <p>&nbsp;</p>
+          </li>
+          <li>
+            <p>&nbsp;</p>
+          </li>
+          <li>
+            <p>&nbsp;</p>
+          </li>
+          <li>
+            <p>&nbsp;</p>
+          </li>
+          <li>
+            <p>&nbsp;</p>
+          </li>
+          <li>
+            <p>&nbsp;</p>
+          </li>
+          <li>
+            <p>&nbsp;</p>
+          </li>
+        </ul>
       </div>
       <button id="todo-btn">Add To Do</button>
       <p>&nbsp;</p>
     </section>
-    <section id="credits">
-      <h1>Extra Information</h1>
-    </section>
+    <footer id="credits">
+      <ul>
+        <li>
+          <a href="https://www.instagram.com/Hugondon">
+            <img src="images/icons/insta.png" alt="Instagram Logo" />
+          </a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/hugorez/">
+            <img src="images/icons/facebook.png" alt="Facebook Logo" />
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/hugo-perez9/">
+            <img src="images/icons/linkedin.png" alt="LinkedIn Logo" />
+          </a>
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>

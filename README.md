@@ -474,3 +474,9 @@ I also want to share how happy I am with being done with the first quarter of th
 **Today's Progress**: Today I resumed the Pomodoro Timer project. I solved some issues related to the buttons and the counter font. I also added the section! For the frontend there's just some few things left before starting with the backend. Here's the project for now:
 
 **Link to work:** -
+
+## Day 69 | October 14th, Saturday | Pomodoro 6/7
+
+**Today's Progress**: Today I finished the last section of the site and started working on the dynamic part of it. I added listeners to all buttons and started working on the specific functionalities of some of them. Once again, here's the project's progress up until now:
+
+**Link to work:** -
