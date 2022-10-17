@@ -149,6 +149,22 @@ button {
   cursor: pointer;
 }
 
+#save-timer-btn {
+  display: block;
+  margin: 1rem;
+  margin-left: auto;
+  padding: 1% 2% 0.7% 2%;
+  font-size: 18px;
+  font-weight: 900;
+
+  background-color: #cf433b;
+  color: #ffa900;
+
+  border: 1px solid transparent;
+
+  cursor: pointer;
+  text-transform: uppercase;
+}
 #third-row span {
   margin: 0;
   font-size: 4rem;
@@ -174,28 +190,6 @@ button {
   border-radius: 0.125em;
 }
 
-#play-svg {
-  width: 5%;
-  height: 5%;
-}
-#stop-svg {
-  width: 5%;
-  height: 5%;
-}
-#restart-1-svg {
-  width: 5%;
-  height: 5%;
-}
-#restart-2-svg {
-  width: 5%;
-  height: 5%;
-}
-
-#todo-svg {
-  width: 30%;
-  height: 30%;
-}
-
 .button-svg:hover {
   background: var(--btn-alt-2);
   cursor: pointer;
@@ -207,10 +201,6 @@ button {
   margin: 0;
 }
 
-#todo-svg {
-  margin-top: 1rem;
-  margin-left: 3rem;
-}
 #todo-btn {
   display: block;
   margin-right: 10rem;

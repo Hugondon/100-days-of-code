@@ -1,0 +1,28 @@
+#play-svg,
+#stop-svg,
+#restart-1-svg,
+#restart-2-svg {
+  width: 5%;
+  height: 5%;
+}
+
+#todo-svg {
+  width: 30%;
+  height: 30%;
+  margin-top: 1rem;
+  margin-left: 3rem;
+}
+
+#timer-close-svg,
+#pomodoro-close-svg,
+#francesco-close-svg {
+  width: 6%;
+  height: 6%;
+  opacity: 0.5;
+}
+
+#timer-close-svg:hover,
+#pomodoro-close-svg:hover,
+#francesco-close-svg:hover {
+  opacity: 0.7;
+}

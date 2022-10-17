@@ -11,28 +11,103 @@
       href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="overlays.css" />
-    <link rel="stylesheet" href="styles.css" />
-    <script src="info.js" defer></script>
-    <script src="svgInteraction.js" defer></script>
-    <script src="timerInteraction.js" defer></script>
-    <script src="todoInteraction.js" defer></script>
-    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="styles/svg.css" />
+    <link rel="stylesheet" href="styles/overlays.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
+
+    <script src="scripts/info.js" defer></script>
+    <script src="scripts/svgInteraction.js" defer></script>
+    <script src="scripts/timerInteraction.js" defer></script>
+    <script src="scripts/todoInteraction.js" defer></script>
+    <script src="scripts/app.js" defer></script>
 
     <title>(0:0) Pomodoro Timer</title>
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Tammudu&amp;display=swap" rel="stylesheet">
   </head>
   <body>
     <div id="backdrop" class="backdrop"></div>
-    <section id="pomodoro">
-      <aside class="modal" id="custom-timer-overlay">
+    <aside class="modal" id="custom-timer-overlay">
+      <div class="modal-header">
         <h2>Enter Custom Timer</h2>
-      </aside>
-      <aside class="modal" id="pomodoro-information-overlay">
+        <img src="images/close-button.svg" id="timer-close-svg" data-src="custom-timer"/>
+      </div>
+      <div class="modal-body">
+        <form action="/" method="POST">
+          <ul>
+            <li class="form-group">
+              <label for="pomodoro-time">Pomodoro</label>
+              <input
+                type="text"
+                name="pomodoro"
+                id="pomodoro-time"
+                value="25"
+              />
+            </li>
+            <li class="form-group">
+              <label for="short-break-time">Short Break</label>
+              <input
+                type="text"
+                name="short-break"
+                id="short-break-time"
+                value="5"
+              />
+            </li>
+            <li class="form-group">
+              <label for="long-break-time">Long Break</label>
+              <input
+                type="text"
+                name="long-break"
+                id="long-break-time"
+                value="15"
+              />
+            </li>
+          </ul>
+        </div>
+        <button id="save-timer-btn">Save</button>
+      </form>
+    </aside>
+    <aside class="modal" id="pomodoro-information-overlay">
+      <div class="modal-header">
         <h2>What is Pomodoro Timer</h2>
-      </aside>
-      <aside class="modal" id="francesco-information-overlay">
+        <img src="images/close-button.svg" id="pomodoro-close-svg" data-src="pomodoro-information"/>
+      </div>
+      <div id="modal-body">
+        <h3>
+          Online Pomodoro Timer
+        </h3>
+        <p>
+          TomatoTimers is a customizable and easy to use looping pomodoro timer to boost your efficiency.
+        </p>
+        <h3>
+          About Pomodoro Technique
+        </h3>
+        <p>
+          Pomodoro™ Technique is a time management method developed by Francesco Cirillo in the late 1980s. This technique use timer to break down works into a set of intervals separated by breaks. Pomodoro technique increases productivity by taking short scheduled breaks regularly.
+        </p>
+        <h3>
+          How to use Pomodoro/ Tomato timers
+        </h3>
+        <ul>
+          <li>Decide task to be done set timers to 25 minutes for one "Pomodoro"</li>
+          <li>Work on task until timer is complete</li>
+          <li>After timer completion, put a checkmark on to-do list</li>
+          <li>Take a 5 minutes short break</li>
+          <li>After four "Pomodoro" take a long break</li>
+          <li>Repeat to step 1</li>
+        </ul>
+        <p>USE THE LOOP BUTTON TO DO STEP 1 UNTIL STEP 5 IN A ROW</p>
+        <p>Pomodoro™ and Pomodoro Technique® are registered trademarks of Francesco Cirillo. This web app is not affiliated with Francesco Cirillo.</p>
+      </div>
+    </aside>
+    <aside class="modal" id="francesco-information-overlay">
+      <div class="modal-header">
         <h2>Who is Francesco Cirillo?</h2>
-      </aside>
+        <img src="images/close-button.svg" id="francesco-close-svg" data-src="francesco-information"/>
+      </div>
+
+      <div id="modal-body"></div>
+    </aside>
+    <section id="pomodoro">
       <div id="first-row">
         <div id="page-logo">
           <a href="index.html">Pomodoro Timer</a>
@@ -58,9 +133,6 @@
         <span id="seconds">00</span>
       </div>
       <div id="fifth-row">
-        <!-- <button id="restart-button"></button>
-        <button id="play-button"></button>
-        <button id="stop-button"></button> -->
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"

@@ -480,3 +480,9 @@ I also want to share how happy I am with being done with the first quarter of th
 **Today's Progress**: Today I finished the last section of the site and started working on the dynamic part of it. I added listeners to all buttons and started working on the specific functionalities of some of them. Once again, here's the project's progress up until now:
 
 **Link to work:** -
+
+## Day 70 | October 15th, Sunday | Pomodoro 7/7
+
+**Today's Progress**: Today I added the forms in which the user will be able to set the time corresponding to each interval. It required plenty of manipulation using padding, margins and flex boxes. I also had to research how to change opacity of an element, but here it is:
+
+**Link to work:** -
