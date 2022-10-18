@@ -2,55 +2,62 @@
   position: fixed;
   top: 4%;
   left: 24%;
-  width: 100%;
+  width: 800px;
 
   background-color: #ffede5;
-  border: 1px solid rgba(0, 0, 0, 0.2);
 
   color: rgb(163, 43, 52);
+  font-family: 'Baloo Tammudu', cursive;
+
   display: none;
+  transition: opacity 0.15s;
 }
 .modal body {
-  font-family: 'Baloo Tammudu', cursive;
   font-size: 1rem;
 }
 .modal h2 {
-  padding: 1rem;
-
   color: #a32b34;
-  font-family: 'Baloo Tammudu', cursive;
-  font-weight: bold;
+
   font-size: 1.5rem;
-  text-transform: uppercase;
+  font-weight: bold;
 }
-.modal ul {
-  margin: 0px;
-  padding: 0px;
-  list-style: none;
-}
-.modal label {
-  font-family: 'Baloo Tammudu', cursive;
-  display: block;
+.modal h3 {
+  line-height: 1rem;
+  color: #a32b34;
+
+  font-size: 1rem;
+  font-weight: bold;
   margin-bottom: 0.5rem;
 }
-.modal li {
-  padding-left: 10px;
-
+.modal p {
+  line-height: 1.5rem;
   color: #c95b5e;
-  font: 'Baloo Tammudu', cursive;
+
+  font-size: 1rem;
   font-weight: 500;
-  text-transform: uppercase;
+
+  margin-bottom: 1rem;
+}
+
+.modal ul {
+  list-style: none;
+  padding-inline-start: 0;
+  margin: 0;
+}
+.modal label {
+  display: block;
 }
 
 .modal input,
 textarea,
 select {
   width: 100%;
+  margin-right: 2rem;
+  margin-bottom: 0.5rem;
 
   border: 1px solid #ced4da;
-  padding: 0.25rem;
-  margin-bottom: 0.5rem;
-  margin-right: 2rem;
+  /* Top Right Bottom Left  */
+  padding: 0.25rem 0.25rem 0.25rem 0.5rem;
   box-sizing: border-box;
 
   font: inherit;
@@ -64,6 +71,8 @@ select {
 }
 
 .modal-header {
+  padding: 1rem;
+
   font-size: 1.5rem;
 
   display: flex;
@@ -78,10 +87,14 @@ select {
   border-top: 1px solid;
   border-bottom: 1px solid;
   margin: 0;
+  padding: 1rem;
 }
 
 .form-group {
-  padding: 0.2rem 0.75rem;
+  padding-bottom: 0.5rem;
+  color: #c95b5e;
+  font-weight: 500;
+  text-transform: uppercase;
 }
 
 .form-group input {
@@ -99,9 +112,27 @@ select {
   display: none;
 }
 
+.howto-list {
+  margin: 0 0 1rem 1rem;
+}
+
+.howto-bullet {
+  /* margin: 0 0 1rem; */
+  margin-left: 1rem;
+
+  list-style: disc;
+  text-transform: capitalize;
+
+  line-height: 1.5rem;
+  color: #c95b5e;
+
+  font-size: 1rem;
+  font-weight: 500;
+}
+
 @media (min-width: 48rem) {
   .modal {
     left: calc(50% -20rem);
-    width: 40rem;
+    width: 800px;
   }
 }

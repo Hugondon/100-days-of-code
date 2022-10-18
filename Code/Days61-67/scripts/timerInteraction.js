@@ -1,12 +1,34 @@
 function setPomodoroTimer() {
-  console.log('Set Pomodoro Timer')
+  const minutesElement = document.getElementById('minutes')
+  const secondsElement = document.getElementById('seconds')
+
+  const bellSound = new Audio('sounds/bell.mp3')
+  bellSound.play()
+
+  minutesElement.innerHTML = '25'
+  secondsElement.innerHTML = '00'
 }
 function setShortBreakTimer() {
-  console.log('Set Short Break')
+  const minutesElement = document.getElementById('minutes')
+  const secondsElement = document.getElementById('seconds')
+
+  // TODO: get from profile
+  minutesElement.innerHTML = '5'
+  secondsElement.innerHTML = '00'
 }
 function setLongBreakTimer() {
-  console.log('Set Long Break')
+  const minutesElement = document.getElementById('minutes')
+  const secondsElement = document.getElementById('seconds')
+
+  // TODO: get from profile
+  minutesElement.innerHTML = '15'
+  secondsElement.innerHTML = '00'
 }
 function setLoopTimer() {
-  console.log('Set Loop')
+  const minutesElement = document.getElementById('minutes')
+  const secondsElement = document.getElementById('seconds')
+
+  // TODO: get from profile
+  minutesElement.innerHTML = '25'
+  secondsElement.innerHTML = '00'
 }

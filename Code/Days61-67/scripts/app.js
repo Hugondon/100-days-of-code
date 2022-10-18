@@ -49,6 +49,8 @@ shortBreakTimerButton.addEventListener('click', setShortBreakTimer)
 longBreakTimerButton.addEventListener('click', setLongBreakTimer)
 LoopTimerButton.addEventListener('click', setLoopTimer)
 
+// Timer
+
 // Todo Section Buttons
 
 const addToDoButton = document.getElementById('todo-btn')
