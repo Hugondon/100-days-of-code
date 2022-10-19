@@ -1,31 +1,42 @@
 function restartCurrentTimer() {
-  // document.getElementById('')
-  console.log('Restart Current')
-}
-function restartLoopTimer() {
-  // document.getElementById('')
-  console.log('Restart Loop')
-}
-function startTimer() {
-  // document.getElementById('')
-  console.log('Start Timer')
   let minutesElement = document.getElementById('minutes')
   let secondsElement = document.getElementById('seconds')
 
-  if (secondsElement.innerHTML === '00') {
-    secondsElement.innerHTML = '59'
-    minutesElement.innerHTML -= 1
-    minutesElement.innerHTML.toString()
-  } else {
-    secondsElement.innerHTML -= 1
-    secondsElement.innerHTML.toString()
+  switch (currentTimerState) {
+    case timerStates.Pomodoro:
+    case timerStates.Loop:
+      minutesElement.innerHTML = pomodoroMinutes
+      secondsElement.innerHTML = '00'
+      break
+    case timerStates.ShortBreak:
+      minutesElement.innerHTML = shortBreakMinutes
+      secondsElement.innerHTML = '00'
+      break
+    case timerStates.LongBreak:
+      minutesElement.innerHTML = LongBreakMinutes
+      secondsElement.innerHTML = '00'
+      break
   }
-  setTimeout(startTimer, 1000)
+}
+function restartLoopTimer() {
+  let minutesElement = document.getElementById('minutes')
+  let secondsElement = document.getElementById('seconds')
+
+  currentTimerState = timerStates.Pomodoro
+  pomodoroCounter = 0
+
+  minutesElement.innerHTML = pomodoroMinutes
+  secondsElement.innerHTML = '00'
+}
+function startTimer(event) {
+  if (!timerStarted) {
+    timerStarted = true
+    decreaseTimer()
+  }
 }
 function stopTimer() {
-  // document.getElementById('')
-  clearTimeout(playTimeout)
-  console.log('Stop Timer')
+  timerStarted = false
+  clearTimeout(intervalId)
 }
 
 function closeCurrentModal(event) {

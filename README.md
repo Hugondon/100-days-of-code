@@ -469,28 +469,34 @@ I also want to share how happy I am with being done with the first quarter of th
 
 **Link to work:** -
 
-## Day 68 | October 13th, Friday | Pomodoro 5/7
+## Day 68 | October 14th, Friday | Pomodoro 5/7
 
 **Today's Progress**: Today I resumed the Pomodoro Timer project. I solved some issues related to the buttons and the counter font. I also added the section! For the frontend there's just some few things left before starting with the backend. Here's the project for now:
 
 **Link to work:** [Day Sixty-Eight](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days61-67)
 
-## Day 69 | October 14th, Saturday | Pomodoro 6/7
+## Day 69 | October 15th, Saturday | Pomodoro 6/7
 
 **Today's Progress**: Today I finished the last section of the site and started working on the dynamic part of it. I added listeners to all buttons and started working on the specific functionalities of some of them. Once again, here's the project's progress up until now:
 
 **Link to work:** [Day Sixty-Nine](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days61-67)
 
-## Day 70 | October 15th, Sunday | Pomodoro 7/7
+## Day 70 | October 16th, Sunday | Pomodoro 7/7
 
 **Today's Progress**: Today I added the forms in which the user will be able to set the time corresponding to each interval. It required plenty of manipulation using padding, margins and flex boxes. I also had to research how to change opacity of an element, but here it is:
 
 **Link to work:** [Day Seventy](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days61-67)
 
-## Day 71 | October 16th, Monday | Pomodoro 8/7
+## Day 71 | October 17th, Monday | Pomodoro 8/7
 
 **Today's Progress**: Finished adding style and functionalities to the remaining interface buttons with a special mention to
 @cirillof
 for this wonderful technique❤️. I also researched about setTimeout / clearTimeout methods for the timer feature.
 
 **Link to work:** [Day Seventy-One](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days61-67)
+
+## Day 72 | October 18th, Tuesday | Pomodoro 9/7
+
+**Today's Progress**: I'm almost done with the timer feature of the Pomodoro site. It's only missing some ifs to get a functional complete pomodoro loop feature, but everything else is done! Tomorrow I'll implement this and the profile feature that I wanted to add.
+
+**Link to work:** [Day Seventy-Two](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days61-67)
