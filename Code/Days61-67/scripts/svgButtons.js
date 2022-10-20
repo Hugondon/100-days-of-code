@@ -1,34 +1,32 @@
 function restartCurrentTimer() {
-  let minutesElement = document.getElementById('minutes')
-  let secondsElement = document.getElementById('seconds')
-
+  const minutesElement = document.getElementById('minutes')
+  const secondsElement = document.getElementById('seconds')
+  console.log(
+    'Restarting from ' + minutesElement.innerHTML + secondsElement.innerHTML,
+  )
   switch (currentTimerState) {
     case timerStates.Pomodoro:
-    case timerStates.Loop:
       minutesElement.innerHTML = pomodoroMinutes
-      secondsElement.innerHTML = '00'
+      secondsElement.innerHTML = pomodoroSeconds
       break
     case timerStates.ShortBreak:
       minutesElement.innerHTML = shortBreakMinutes
-      secondsElement.innerHTML = '00'
+      secondsElement.innerHTML = shortBreakSeconds
       break
     case timerStates.LongBreak:
       minutesElement.innerHTML = LongBreakMinutes
-      secondsElement.innerHTML = '00'
+      secondsElement.innerHTML = longBreakSeconds
       break
   }
+  checkTimerFormat()
+  console.log('To ' + minutesElement.innerHTML + secondsElement.innerHTML)
 }
 function restartLoopTimer() {
-  let minutesElement = document.getElementById('minutes')
-  let secondsElement = document.getElementById('seconds')
-
   currentTimerState = timerStates.Pomodoro
   pomodoroCounter = 0
-
-  minutesElement.innerHTML = pomodoroMinutes
-  secondsElement.innerHTML = '00'
+  restartCurrentTimer()
 }
-function startTimer(event) {
+function startTimer() {
   if (!timerStarted) {
     timerStarted = true
     decreaseTimer()
