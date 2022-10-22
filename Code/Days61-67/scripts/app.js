@@ -8,19 +8,18 @@ let currentTimerState = timerStates.Pomodoro
 let loopSelected = false
 let pomodoroCounter = 0
 
-let pomodoroMinutes = '0'
-let shortBreakMinutes = '0'
-let LongBreakMinutes = '0'
+let pomodoroMinutes = '25'
+let shortBreakMinutes = '5'
+let LongBreakMinutes = '15'
 
-const pomodoroSeconds = '3'
-const shortBreakSeconds = '1'
-const longBreakSeconds = '2'
+let pomodoroSeconds = '0'
+let shortBreakSeconds = '0'
+let longBreakSeconds = '0'
 
 const bellSound = new Audio('sounds/bell.mp3')
 let intervalId
 
 const titleElement = document.getElementById('title')
-
 const backdropElement = document.getElementById('backdrop')
 backdropElement.addEventListener('click', function () {
   backdropElement.style.display = 'none'

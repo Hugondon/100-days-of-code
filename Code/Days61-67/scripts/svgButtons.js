@@ -1,9 +1,7 @@
 function restartCurrentTimer() {
   const minutesElement = document.getElementById('minutes')
   const secondsElement = document.getElementById('seconds')
-  console.log(
-    'Restarting from ' + minutesElement.innerHTML + secondsElement.innerHTML,
-  )
+
   switch (currentTimerState) {
     case timerStates.Pomodoro:
       minutesElement.innerHTML = pomodoroMinutes
@@ -19,7 +17,6 @@ function restartCurrentTimer() {
       break
   }
   checkTimerFormat()
-  console.log('To ' + minutesElement.innerHTML + secondsElement.innerHTML)
 }
 function restartLoopTimer() {
   currentTimerState = timerStates.Pomodoro

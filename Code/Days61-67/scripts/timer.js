@@ -1,9 +1,8 @@
 function loopLogic() {
-  console.log('Current state ' + currentTimerState)
   switch (currentTimerState) {
     case timerStates.Pomodoro:
       pomodoroCounter++
-      if (pomodoroCounter < 3) {
+      if (pomodoroCounter < 4) {
         currentTimerState = timerStates.ShortBreak
       } else {
         currentTimerState = timerStates.LongBreak
@@ -11,14 +10,13 @@ function loopLogic() {
       }
 
       restartCurrentTimer()
-      decreaseTimer()
+      intervalId = setTimeout(decreaseTimer, 1000)
       break
     case timerStates.ShortBreak:
-      currentTimerState == timerStates.Pomodoro
+      currentTimerState = timerStates.Pomodoro
+
       restartCurrentTimer()
-
-      decreaseTimer()
-
+      intervalId = setTimeout(decreaseTimer, 1000)
       break
     case timerStates.LongBreak:
       break
@@ -34,6 +32,12 @@ function checkTimerFormat() {
   if (secondsElement.innerHTML.length === 1) {
     secondsElement.innerHTML = secondsElement.innerHTML.padStart(2, '0')
   }
+  titleElement.innerHTML =
+    '(' +
+    minutesElement.innerHTML +
+    ':' +
+    secondsElement.innerHTML +
+    ') Pomodoro Timer'
 }
 
 function decreaseTimer() {
@@ -45,22 +49,19 @@ function decreaseTimer() {
     secondsElement.innerHTML -= 1
     secondsElement.innerHTML.toString()
     checkTimerFormat()
-  }
-
-  if (secondsElement.innerHTML == '00' && minutesElement.innerHTML == '00') {
-    bellSound.play()
-    if (loopSelected) loopLogic()
+    intervalId = setTimeout(decreaseTimer, 1000)
   } else {
-    intervalId = setTimeout(decreaseTimer, 1000)
-  }
+    if (minutesElement.innerHTML !== '00') {
+      secondsElement.innerHTML = '59'
 
-  if (minutesElement.innerHTML !== '00') {
-    secondsElement.innerHTML = '59'
+      minutesElement.innerHTML -= 1
+      minutesElement.innerHTML.toString()
+      checkTimerFormat()
 
-    minutesElement.innerHTML -= 1
-    minutesElement.innerHTML.toString()
-    checkTimerFormat()
-
-    intervalId = setTimeout(decreaseTimer, 1000)
+      intervalId = setTimeout(decreaseTimer, 1000)
+    } else {
+      bellSound.play()
+      if (loopSelected) loopLogic()
+    }
   }
 }
