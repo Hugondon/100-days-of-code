@@ -71,7 +71,7 @@ select {
 }
 
 .modal-header {
-  padding: 1rem;
+  padding: 1rem 1rem 0 1rem;
 
   font-size: 1.5rem;
 
@@ -128,6 +128,23 @@ select {
 
   font-size: 1rem;
   font-weight: 500;
+}
+
+#save-profile {
+  padding: 0 1rem 1rem 1rem;
+}
+
+#load-profile {
+  padding: 0 1rem 1rem 1rem;
+}
+
+#load-profile select,
+#save-profile input {
+  width: 40%;
+}
+
+#save-profile label {
+  margin: 1rem 0 0 0;
 }
 
 @media (min-width: 48rem) {

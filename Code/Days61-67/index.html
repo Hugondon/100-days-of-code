@@ -29,8 +29,15 @@
     <div id="backdrop" class="backdrop"></div>
     <aside class="modal" id="custom-timer-overlay">
       <div class="modal-header">
-        <h2>ENTER CUSTOM TIMER</h2>
+        <h2>ENTER CUSTOM TIMER OR LOAD PROFILE</h2>
         <img src="images/close-button.svg" id="timer-close-svg" data-src="custom-timer"/>
+      </div>
+      <div id="load-profile">
+        <label for="profile-name">Select a Profile</label>
+        <select name="profileName" id="profile-name">
+          <option>Default</option>
+        </select>
+          <button id="load-timer-btn" class="custom-timer-btn">Load Profile</button>
       </div>
       <div class="modal-body">
         <form action="/" method="POST">
@@ -64,7 +71,13 @@
             </li>
           </ul>
         </div>
-        <button id="save-timer-btn">Save</button>
+
+          <div id="save-profile">
+            <label for="save-profile">New Profile Name</label>
+            <input type="text" name="save-profile" >
+            <button id="save-profile-btn" class="custom-timer-btn">Save Profile</button>
+          </div>
+          
       </form>
     </aside>
     <aside class="modal" id="pomodoro-information-overlay">
