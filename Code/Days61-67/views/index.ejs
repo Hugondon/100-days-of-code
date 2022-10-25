@@ -1,143 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/x-icon" href="images/favicon_2.ico" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles/svg.css" />
-    <link rel="stylesheet" href="styles/overlays.css" />
-    <link rel="stylesheet" href="styles/styles.css" />
-
-    <script src="scripts/informationButtons.js" defer></script>
-    <script src="scripts/svgButtons.js" defer></script>
-    <script src="scripts/pomodoroButtons.js" defer></script>
-    <script src="scripts/todoInteraction.js" defer></script>
-    <script src="scripts/timer.js" defer></script>
-    <script src="scripts/app.js" defer></script>
-
-    <title id="title">(25:00) Pomodoro Timer</title>
-    <link href="https://fonts.googleapis.com/css?family=Baloo+Tammudu&amp;display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <div id="backdrop" class="backdrop"></div>
+  <%- include('includes/head') %>
+</head>
+<body>
+  <div id="backdrop" class="backdrop"></div>
     <aside class="modal" id="custom-timer-overlay">
-      <div class="modal-header">
-        <h2>ENTER CUSTOM TIMER OR LOAD PROFILE</h2>
-        <img src="images/close-button.svg" id="timer-close-svg" data-src="custom-timer"/>
-      </div>
-      <div id="load-profile">
-        <label for="profile-name">Select a Profile</label>
-        <select name="profileName" id="profile-name">
-          <option>Default</option>
-        </select>
-          <button id="load-timer-btn" class="custom-timer-btn">Load Profile</button>
-      </div>
-      <div class="modal-body">
-        <form action="/" method="POST">
-          <ul>
-            <li class="form-group">
-              <label for="pomodoro-time">Pomodoro</label>
-              <input
-                type="text"
-                name="pomodoro"
-                id="pomodoro-time"
-                value="25"
-              />
-            </li>
-            <li class="form-group">
-              <label for="short-break-time">Short Break</label>
-              <input
-                type="text"
-                name="short-break"
-                id="short-break-time"
-                value="5"
-              />
-            </li>
-            <li class="form-group">
-              <label for="long-break-time">Long Break</label>
-              <input
-                type="text"
-                name="long-break"
-                id="long-break-time"
-                value="15"
-              />
-            </li>
-          </ul>
-        </div>
+    <div class="modal-header">
+    <h2>ENTER CUSTOM TIMER OR LOAD PROFILE</h2>
+    <img src="images/close-button.svg" id="timer-close-svg" data-src="custom-timer"/>
+    </div>
+    <div id="load-profile">
+    <label for="profile-name">Select a Profile</label>
+    <select name="profileName" id="profile-name">
+        <option>Default</option>
+        <% for(const existingProfile of existingProfiles) { %> 
+        <option> <%=  existingProfile.profileName %> </option>
+        <% } %> 
+    </select>
 
-          <div id="save-profile">
-            <label for="save-profile">New Profile Name</label>
-            <input type="text" name="save-profile" >
-            <button id="save-profile-btn" class="custom-timer-btn">Save Profile</button>
-          </div>
-          
-      </form>
-    </aside>
-    <aside class="modal" id="pomodoro-information-overlay">
-      <div class="modal-header">
-        <h2>What is Pomodoro Timer</h2>
-        <img src="images/close-button.svg" id="pomodoro-close-svg" data-src="pomodoro-information"/>
-      </div>
-      <div class="modal-body">
-        <h3>
-          Online Pomodoro Timer
-        </h3>
-        <p>
-          TomatoTimers is a customizable and easy to use looping pomodoro timer to boost your efficiency.
-        </p>
-        <h3>
-          About Pomodoro Technique
-        </h3>
-        <p>
-          Pomodoro™ Technique is a time management method developed by Francesco Cirillo in the late 1980s. This technique use timer to break down works into a set of intervals separated by breaks. Pomodoro technique increases productivity by taking short scheduled breaks regularly.
-        </p>
-        <h3>
-          How to use Pomodoro/ Tomato timers
-        </h3>
-        <ul class="howto-list">
-          <li class="howto-bullet">Decide task to be done set timers to 25 minutes for one "Pomodoro"</li>
-          <li class="howto-bullet">Work on task until timer is complete</li>
-          <li class="howto-bullet">After timer completion, put a checkmark on to-do list</li>
-          <li class="howto-bullet">Take a 5 minutes short break</li>
-          <li class="howto-bullet">After four "Pomodoro" take a long break</li>
-          <li class="howto-bullet">Repeat to step 1</li>
+      <button id="load-timer-btn" class="custom-timer-btn">Load Profile</button>
+    </div>
+    <div class="modal-body">
+    <form action="/save-profile" method="POST">
+        <ul>
+        <li class="form-group">
+            <label for="pomodoro-time">Pomodoro</label>
+            <input
+            type="text"
+            name="pomodoro"
+            id="pomodoro-time"
+            value="25"
+            />
+        </li>
+        <li class="form-group">
+            <label for="short-break-time">Short Break</label>
+            <input
+            type="text"
+            name="shortBreak"
+            id="short-break-time"
+            value="5"
+            />
+        </li>
+        <li class="form-group">
+            <label for="long-break-time">Long Break</label>
+            <input
+            type="text"
+            name="longBreak"
+            id="long-break-time"
+            value="15"
+            />
+        </li>
         </ul>
-        <p>USE THE LOOP BUTTON TO DO STEP 1 UNTIL STEP 5 IN A ROW</p>
-        <p>Pomodoro™ and Pomodoro Technique® are registered trademarks of Francesco Cirillo. This web app is not affiliated with Francesco Cirillo.</p>
-      </div>
-    </aside>
-    <aside class="modal" id="francesco-information-overlay">
-      <div class="modal-header">
-        <h2>Who is Francesco Cirillo?</h2>
-        <img src="images/close-button.svg" id="francesco-close-svg" data-src="francesco-information"/>
-      </div>
+        <div id="save-profile">
+        <label for="save-profile">New Profile Name</label>
+        <input type="text" name="profileName" >
+        <button id="save-profile-btn" class="custom-timer-btn">Save Profile</button>
+        </div>
+        
+    </div>
 
-      <div class="modal-body">
-      <h3>Inventions</h3>
-      <p>
-        He invented the Pomodoro Technique, a renowned time-management tool used by millions
-        of people all over the world, three decades ago. He has worked at the forefront of the software industry
-        for twenty years.
-      </p>
-      <h3>Experience</h3>
-      <p>
-        In a career spanning startups, multinationals and freelance consulting, he has mentored thousands
-        of developers and software teams.
-      </p>
-      <h3>Additional Information</h3>
-      <p>
-        Francesco's core focus has always been improving productivity and efficiency,
-        by finding ways to achieve better results with less time and less effort.
-      </p>
-      </div>
-    </aside>
+    </form>
+</aside>
+<aside class="modal" id="pomodoro-information-overlay">
+    <div class="modal-header">
+    <h2>What is Pomodoro Timer</h2>
+    <img src="images/close-button.svg" id="pomodoro-close-svg" data-src="pomodoro-information"/>
+    </div>
+    <div class="modal-body">
+    <h3>
+        Online Pomodoro Timer
+    </h3>
+    <p>
+        TomatoTimers is a customizable and easy to use looping pomodoro timer to boost your efficiency.
+    </p>
+    <h3>
+        About Pomodoro Technique
+    </h3>
+    <p>
+        Pomodoro™ Technique is a time management method developed by Francesco Cirillo in the late 1980s. This technique use timer to break down works into a set of intervals separated by breaks. Pomodoro technique increases productivity by taking short scheduled breaks regularly.
+    </p>
+    <h3>
+        How to use Pomodoro/ Tomato timers
+    </h3>
+    <ul class="howto-list">
+        <li class="howto-bullet">Decide task to be done set timers to 25 minutes for one "Pomodoro"</li>
+        <li class="howto-bullet">Work on task until timer is complete</li>
+        <li class="howto-bullet">After timer completion, put a checkmark on to-do list</li>
+        <li class="howto-bullet">Take a 5 minutes short break</li>
+        <li class="howto-bullet">After four "Pomodoro" take a long break</li>
+        <li class="howto-bullet">Repeat to step 1</li>
+    </ul>
+    <p>USE THE LOOP BUTTON TO DO STEP 1 UNTIL STEP 5 IN A ROW</p>
+    <p>Pomodoro™ and Pomodoro Technique® are registered trademarks of Francesco Cirillo. This web app is not affiliated with Francesco Cirillo.</p>
+    </div>
+</aside>
+<aside class="modal" id="francesco-information-overlay">
+    <div class="modal-header">
+    <h2>Who is Francesco Cirillo?</h2>
+    <img src="images/close-button.svg" id="francesco-close-svg" data-src="francesco-information"/>
+    </div>
+
+    <div class="modal-body">
+    <h3>Inventions</h3>
+    <p>
+    He invented the Pomodoro Technique, a renowned time-management tool used by millions
+    of people all over the world, three decades ago. He has worked at the forefront of the software industry
+    for twenty years.
+    </p>
+    <h3>Experience</h3>
+    <p>
+    In a career spanning startups, multinationals and freelance consulting, he has mentored thousands
+    of developers and software teams.
+    </p>
+    <h3>Additional Information</h3>
+    <p>
+    Francesco's core focus has always been improving productivity and efficiency,
+    by finding ways to achieve better results with less time and less effort.
+    </p>
+    </div>
+</aside>
     <section id="pomodoro">
       <div id="first-row">
         <div id="page-logo">
@@ -268,24 +250,24 @@
       <button id="todo-btn">Add To Do</button>
       <p>&nbsp;</p>
     </section>
-    <footer id="credits">
-      <ul>
-        <li>
-          <a href="https://www.instagram.com/Hugondon">
-            <img src="images/icons/insta.png" alt="Instagram Logo" />
-          </a>
-        </li>
-        <li>
-          <a href="https://www.facebook.com/hugorez/">
-            <img src="images/icons/facebook.png" alt="Facebook Logo" />
-          </a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/hugo-perez9/">
-            <img src="images/icons/linkedin.png" alt="LinkedIn Logo" />
-          </a>
-        </li>
-      </ul>
-    </footer>
   </body>
+  <footer id="credits">
+    <ul>
+      <li>
+        <a href="https://www.instagram.com/Hugondon">
+          <img src="images/icons/insta.png" alt="Instagram Logo" />
+        </a>
+      </li>
+      <li>
+        <a href="https://www.facebook.com/hugorez/">
+          <img src="images/icons/facebook.png" alt="Facebook Logo" />
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/hugo-perez9/">
+          <img src="images/icons/linkedin.png" alt="LinkedIn Logo" />
+        </a>
+      </li>
+    </ul>
+  </footer>
 </html>

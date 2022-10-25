@@ -131,7 +131,7 @@ select {
 }
 
 #save-profile {
-  padding: 0 1rem 1rem 1rem;
+  padding: 0;
 }
 
 #load-profile {
