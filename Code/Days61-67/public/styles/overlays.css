@@ -117,7 +117,6 @@ select {
 }
 
 .howto-bullet {
-  /* margin: 0 0 1rem; */
   margin-left: 1rem;
 
   list-style: disc;

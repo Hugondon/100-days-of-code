@@ -6,6 +6,9 @@ const express = require('express')
 const { Console } = require('console')
 const app = express()
 
+// Profile ids
+const uuid = require('uuid')
+
 // Activate EJS view engine
 app.set('view engine', 'ejs')
 app.set('views', path.join(__dirname, 'views'))
@@ -32,10 +35,8 @@ app.get('/', function (req, res) {
     }
   } catch (error) {
     console.log(error)
-    const existingProfiles = []
-
     res.render('index', {
-      existingProfiles: existingProfiles,
+      existingProfiles: [],
     })
   }
 })
@@ -46,15 +47,30 @@ app.post('/save-profile', async function (req, res) {
 
   const fileData = fs.readFileSync(filePath)
   const existingProfiles = JSON.parse(fileData)
+  profileInformation.id = uuid.v4()
   existingProfiles.push(profileInformation)
   fs.writeFileSync(filePath, JSON.stringify(existingProfiles))
+
   res.render('index', {
     existingProfiles: existingProfiles,
   })
 })
 
-app.get('/load-profile', async function (req, res) {
+app.post('/', async function (req, res) {
   const filePath = path.join(__dirname, 'public', 'data', 'profiles.json')
+  const fileData = fs.readFileSync(filePath)
+  const existingProfiles = JSON.parse(fileData)
+
+  for (const existingProfile of existingProfiles) {
+    if (existingProfile.profileName === req.body.profileName) {
+      res.render('index', {
+        existingProfiles: existingProfiles,
+        pomodoro: existingProfile.pomodoro,
+        shortBreak: existingProfile.shortBreak,
+        longBreak: existingProfile.longBreak,
+      })
+    }
+  }
 })
 
 app.listen(3000)

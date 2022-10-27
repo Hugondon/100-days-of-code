@@ -4,15 +4,19 @@ function restartCurrentTimer() {
 
   switch (currentTimerState) {
     case timerStates.Pomodoro:
-      minutesElement.innerHTML = pomodoroMinutes
+      minutesElement.innerHTML = document.getElementById('pomodoro-time').value
       secondsElement.innerHTML = pomodoroSeconds
       break
     case timerStates.ShortBreak:
-      minutesElement.innerHTML = shortBreakMinutes
+      minutesElement.innerHTML = document.getElementById(
+        'short-break-time',
+      ).value
       secondsElement.innerHTML = shortBreakSeconds
       break
     case timerStates.LongBreak:
-      minutesElement.innerHTML = LongBreakMinutes
+      minutesElement.innerHTML = document.getElementById(
+        'long-break-time',
+      ).value
       secondsElement.innerHTML = longBreakSeconds
       break
   }

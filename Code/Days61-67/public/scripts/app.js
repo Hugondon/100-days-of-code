@@ -8,13 +8,16 @@ let currentTimerState = timerStates.Pomodoro
 let loopSelected = false
 let pomodoroCounter = 0
 
-let pomodoroMinutes = '25'
-let shortBreakMinutes = '5'
-let LongBreakMinutes = '15'
+let pomodoroMinutes = document.getElementById('pomodoro-time').value
+let shortBreakMinutes = document.getElementById('short-break-time').value
+let LongBreakMinutes = document.getElementById('long-break-time').value
 
 let pomodoroSeconds = '0'
 let shortBreakSeconds = '0'
 let longBreakSeconds = '0'
+
+const loadProfileTimerElement = document.getElementById('load-timer-btn')
+loadProfileTimerElement.addEventListener('click', restartCurrentTimer)
 
 const bellSound = new Audio('sounds/bell.mp3')
 let intervalId

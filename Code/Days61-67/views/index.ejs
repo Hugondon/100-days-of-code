@@ -10,28 +10,36 @@
     <h2>ENTER CUSTOM TIMER OR LOAD PROFILE</h2>
     <img src="images/close-button.svg" id="timer-close-svg" data-src="custom-timer"/>
     </div>
-    <div id="load-profile">
-    <label for="profile-name">Select a Profile</label>
-    <select name="profileName" id="profile-name">
-        <option>Default</option>
-        <% for(const existingProfile of existingProfiles) { %> 
-        <option> <%=  existingProfile.profileName %> </option>
-        <% } %> 
-    </select>
+    <form action="/" method="POST">
+      <div id="load-profile">
+        <label for="profile-name">Select a Profile</label>
+        <select name="profileName" id="profile-name">
+            <option>Default</option>
+            <% if(locals.existingProfiles){ %> 
+              <% for(const existingProfile of existingProfiles) { %> 
+              <option> <%=  existingProfile.profileName %> </option>
+              <% } %> 
+            <% }%> 
+        </select>
+        <button id="load-timer-btn" class="custom-timer-btn">Load Profile</button>
+      </div>
+    </form>
 
-      <button id="load-timer-btn" class="custom-timer-btn">Load Profile</button>
-    </div>
     <div class="modal-body">
     <form action="/save-profile" method="POST">
         <ul>
-        <li class="form-group">
+          <li class="form-group">
             <label for="pomodoro-time">Pomodoro</label>
             <input
             type="text"
             name="pomodoro"
             id="pomodoro-time"
-            value="25"
-            />
+            <% if(!locals.pomodoro){ %> 
+              value="25"
+            <% } else {%> 
+              value=<%= locals.pomodoro %>
+            <% } %> 
+              />
         </li>
         <li class="form-group">
             <label for="short-break-time">Short Break</label>
@@ -39,7 +47,11 @@
             type="text"
             name="shortBreak"
             id="short-break-time"
-            value="5"
+            <% if(!locals.shortBreak){ %> 
+              value="5"
+            <% } else {%> 
+              value=<%= locals.shortBreak %>
+            <% } %> 
             />
         </li>
         <li class="form-group">
@@ -48,7 +60,11 @@
             type="text"
             name="longBreak"
             id="long-break-time"
-            value="15"
+            <% if(!locals.longBreak){ %> 
+              value="15"
+            <% } else {%> 
+              value=<%= locals.longBreak %>
+            <% } %> 
             />
         </li>
         </ul>
@@ -141,7 +157,13 @@
         </p>
       </div>
       <div id="fourth-row">
-        <span id="minutes">25</span>
+        <span id="minutes">
+          <% if(!locals.pomodoro){ %> 
+            25
+          <% } else {%> 
+            <%= locals.pomodoro %>
+          <% } %>
+          </span>
         <span>:</span>
         <span id="seconds">00</span>
       </div>
