@@ -500,3 +500,33 @@ for this wonderful technique❤️. I also researched about setTimeout / clearTi
 **Today's Progress**: I'm almost done with the timer feature of the Pomodoro site. It's only missing some ifs to get a functional complete pomodoro loop feature, but everything else is done! Tomorrow I'll implement this and the profile feature that I wanted to add.
 
 **Link to work:** [Day Seventy-Two](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days61-67)
+
+## Day 83 | November 1st, Tuesday | MongoDB - NodeJS
+
+**Today's Progress**: Today I kept working with NodeJS and Mongodb. This time I practised more the use of Mongodb commands in NodeJS with, once again, EJS templates. I learned about the projection concept to select only the necessary data when doing a find() :)
+
+**Link to work:** [Day Eighty-Three](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days82-83)
+
+## Day 84 | November 2nd, Wednesday | MongoDB - CRUD Operations
+
+**Today's Progress**: Today I finished the NodeJS and Mongodb course section. I learned how to perform all CRUD operations and used them in a little project which, in fact, I also made using mySQL
+
+**Link to work:** [Day Eighty-Four](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days84-85)
+
+## Day 85 | November 3th, Thursday | multer
+
+**Today's Progress**: Today I learned how to manage the upload of files in a website with the help of multer package and MongoDB. There were plenty of things that I learned with this, but maybe the most important is that DBs are not used to save images!
+
+**Link to work:** [Day Eighty-Five](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days84-86)
+
+## Day 86 | November 4th, Friday | AJAX - Introduction
+
+**Today's Progress**: Today I worked with AJAX through different requests using fetch from both browser and server sides. It was interesting to implement both parts and see the importance of sending information with the correct headers / body when using posts
+
+**Link to work:**
+
+## Day 87 | November 5th, Saturday | AJAX - fetch()
+
+**Today's Progress**: Today I worked with AJAX through different requests using fetch from both browser and server sides. It was interesting to implement both parts and see the importance of sending information with the correct headers / body when using posts
+
+**Link to work:** [Day Eighty-Seven](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Day87)
