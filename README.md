@@ -530,3 +530,9 @@ for this wonderful technique❤️. I also researched about setTimeout / clearTi
 **Today's Progress**: Today I worked with AJAX through different requests using fetch from both browser and server sides. It was interesting to implement both parts and see the importance of sending information with the correct headers / body when using posts
 
 **Link to work:** [Day Eighty-Seven](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Day87)
+
+## Day 88 | November 6th, Sunday | Authentication - Signup / Login
+
+**Today's Progress**: Today I started authentication and sessions module. For this, I'm working on a mini project which consists in a system with accounts and a signup / login / access to an admin site features. I'll be using different new (for me) JS Modules and MongoDB!
+
+**Link to work:** [Day Eighty-Eight](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days88-89)
