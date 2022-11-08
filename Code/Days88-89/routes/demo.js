@@ -9,7 +9,17 @@ router.get('/', function (req, res) {
 })
 
 router.get('/signup', function (req, res) {
-  res.render('signup')
+  let sessionInputData = req.sessino.inputData
+
+  if (!sessionInputData) {
+    sessionInputData = {
+      hasError: false,
+      email: '',
+      confirmEmail: '',
+      password: '',
+    }
+  }
+  res.render('signup', { inputData: sessionInputData })
 })
 
 router.get('/login', function (req, res) {
@@ -31,7 +41,18 @@ router.post('/signup', async function (req, res) {
     !enteredEmail.includes('@')
   ) {
     console.log('Invalid data')
-    return res.redirect('/signup')
+    req.session.inputData = {
+      hasError: true,
+      message: 'Invalid input',
+      email: enteredEmail,
+      confirmEmail: enteredConfirmEmail,
+      password: enteredPassword,
+    }
+
+    req.session.save(function () {
+      return res.redirect('/signup')
+    })
+    return
   }
 
   const existingUser = await db
@@ -85,14 +106,30 @@ router.post('/login', async function (req, res) {
 
   // OK
   console.log('User is authenticated')
-  res.redirect('/admin')
+
+  req.session.user = {
+    id: existingUser._id,
+    email: existingUser.email,
+  }
+  req.session.isAuthenticated = true
+
+  req.session.save(function () {
+    res.redirect('/admin')
+  })
 })
 
 router.get('/admin', function (req, res) {
   // Check the user "ticket"
+  if (!req.session.isAuthenticated) {
+    return res.status(401).render('401')
+  }
   res.render('admin')
 })
 
-router.post('/logout', function (req, res) {})
+router.post('/logout', function (req, res) {
+  req.session.user = null
+  req.session.isAuthenticated = false
+  res.redirect('/')
+})
 
 module.exports = router
