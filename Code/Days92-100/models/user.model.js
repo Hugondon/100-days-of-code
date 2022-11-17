@@ -13,6 +13,14 @@ class User {
     }
   }
 
+  async existsAlready() {
+    const existingUser = this.getUserWithSameEmail()
+    if (existingUser) {
+      return true
+    }
+    return false
+  }
+
   async signup() {
     const hashedPassword = await bcrypt.hash(this.password, 12)
     await db.getDb().collection('users').insertOne({
