@@ -501,6 +501,48 @@ for this wonderful technique❤️. I also researched about setTimeout / clearTi
 
 **Link to work:** [Day Seventy-Two](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days61-67)
 
+## Day 73 | October 19th, Wednesday | Pomodoro 10/7
+
+**Today's Progress**: The loop feature of the timer is giving me a hard time. Today I tried to complete it, but the HTML elements related to minutes / seconds are having some weird behaviors when being modified by the javascript code... :(
+
+**Link to work:** [Day Seventy-Three](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days61-67)
+
+## Day 74 & 75 | October 20th/21st, Thursday/Friday | Pomodoro 12/7
+
+**Today's Progress**: Today I finally could finish the loop feature. Now I'm adding the profile feature using some tools of NodeJS. I've been working on it, maybe tomorrow I'll be able to show it being fully functional!
+
+**Link to work:** [Day Seventy-Four and Five](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days61-67)
+
+## Day 76 | October 22nd, Saturday | Pomodoro 13/7
+
+**Today's Progress**: Today I worked on the profile feature. I added some inputs and buttons for it (see the image). I also worked on the NodeJS script to save the profile, but I faced some problems while implementing it. I hope tomorrow I finally finish this...
+
+**Link to work:** [Day Seventy-Six](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days61-67)
+
+## Day 77 | October 25th, Tuesday | Pomodoro 14/7
+
+**Today's Progress**: Today I worked on the profile feature. I added some inputs and buttons for it (see the image). I also worked on the NodeJS script to save the profile, but I faced some problems while implementing it. I hope tomorrow I finally finish this...
+
+**Link to work:** [Day Seventy-Six](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days61-67)
+
+## Day 78/79 | October 26th/27th, Tuesday/Wednesday | Pomodoro 16/7
+
+**Today's Progress**: After a lot of research on how to solve all issues that appeared when trying to add this "load profile" feature, I finally finished the Pomodoro Timer site as I wanted it, as it can be seen. Now I will continue with the course that I was following.
+
+**Link to work:** [Day Seventy-Eight Nine](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days61-67)
+
+## Day 80 | October 29th, Saturday | NoQL
+
+**Today's Progress**: Today I started learning more about NoSQL Databases. I installed MongoDB Community Server and its Shell to play around with it and I inserted my first documents using it :)
+
+## Day 81 | October 30th, Sunday | NoQL CRUD Operations
+
+**Today's Progress**: Today I learned about CRUD operations using MongoDB. I practised each one with different examples and different filters / ways to update documents. They seem interesting, the next module of the course is about combining this with NodeJS!
+
+## Day 81 | October 31st, Monday | Mongodb + NodeJS
+
+**Today's Progress**: TContinued learning how to use MongoDB with NodeJS in an example website :)
+
 ## Day 83 | November 1st, Tuesday | MongoDB - NodeJS
 
 **Today's Progress**: Today I kept working with NodeJS and Mongodb. This time I practised more the use of Mongodb commands in NodeJS with, once again, EJS templates. I learned about the projection concept to select only the necessary data when doing a find() :)
