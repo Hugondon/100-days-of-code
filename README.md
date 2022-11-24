@@ -539,7 +539,7 @@ for this wonderful technique❤️. I also researched about setTimeout / clearTi
 
 **Today's Progress**: Today I learned about CRUD operations using MongoDB. I practised each one with different examples and different filters / ways to update documents. They seem interesting, the next module of the course is about combining this with NodeJS!
 
-## Day 81 | October 31st, Monday | Mongodb + NodeJS
+## Day 82 | October 31st, Monday | Mongodb + NodeJS
 
 **Today's Progress**: TContinued learning how to use MongoDB with NodeJS in an example website :)
 
