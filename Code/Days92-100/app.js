@@ -22,6 +22,8 @@ app.set('views', path.join(__dirname, 'views'))
 
 // Public files
 app.use(express.static('public'))
+// Public product-data
+app.use('/products/assets', express.static('product-data'))
 
 // Extract request information
 app.use(express.urlencoded({ extended: false }))
