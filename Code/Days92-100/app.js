@@ -9,6 +9,7 @@ const db = require('./data/database')
 const addCsrfTokenMiddleware = require('./middlewares/crsf-token')
 const errorHandlerMiddleware = require('./middlewares/error-handler')
 const checkAuthStatusMiddleware = require('./middlewares/check-auth')
+const protectRoutesMiddleWare = require('./middlewares/protect-routes')
 const authRoutes = require('./routes/auth.routes')
 const productsRoutes = require('./routes/products.routes')
 const baseRoutes = require('./routes/base.routes')
@@ -44,6 +45,7 @@ app.use(baseRoutes)
 app.use(authRoutes)
 app.use(productsRoutes)
 
+app.use(protectRoutesMiddleWare)
 // Only paths that start with /admin
 app.use('/admin', adminRoutes)
 
