@@ -20,6 +20,7 @@ router.post(
   imageUploadMiddleware,
   adminController.updateProduct,
 )
+router.delete('/products/:id', adminController.deleteProduct)
 
 // Execute middleware before creating new product
 router.post(
