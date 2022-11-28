@@ -2,17 +2,22 @@
 const Cart = require('../models/cart.models')
 
 function initializeCart(req, res, next) {
-  let cartItem
-  if (!req.session.cart) {
+  let cart
+  const sessionCart = req.session.cart
+
+  if (!sessionCart) {
     cart = new Cart()
+    console.log('New Cart instance')
   } else {
-    const sessionCart = req.session.cart
     cart = new Cart(
       sessionCart.items,
       sessionCart.totalQuantity,
       sessionCart.totalPrice,
     )
+
+    console.log('Cart instance already available')
   }
+  console.log(cart)
 
   res.locals.cart = cart
   next()
