@@ -11,6 +11,7 @@ const errorHandlerMiddleware = require('./middlewares/error-handler')
 const checkAuthStatusMiddleware = require('./middlewares/check-auth')
 const protectRoutesMiddleWare = require('./middlewares/protect-routes')
 const cartMiddleWare = require('./middlewares/cart')
+const updateCartPricesMiddleware = require('./middlewares/update-cart-prices')
 const authRoutes = require('./routes/auth.routes')
 const productsRoutes = require('./routes/products.routes')
 const baseRoutes = require('./routes/base.routes')
@@ -38,27 +39,23 @@ app.use(express.json())
 // Sessions
 const sessionConfig = createSessionConfig()
 app.use(expressSession(sessionConfig))
-
-// Chec Authentication after request
-app.use(checkAuthStatusMiddleware)
-
-// CSRF
 app.use(csrf())
 
-// Cart Middleware
 app.use(cartMiddleWare)
+app.use(updateCartPricesMiddleware)
 
+// Check Authentication after request
 app.use(addCsrfTokenMiddleware)
+app.use(checkAuthStatusMiddleware)
 
 // Routes
 app.use(baseRoutes)
 app.use(authRoutes)
 app.use(productsRoutes)
+// Only paths that start with /cart /orders /admin
 app.use('/cart', cartRoutes)
-
 app.use(protectRoutesMiddleWare)
 app.use('/orders', ordersRoutes)
-// Only paths that start with /admin
 app.use('/admin', adminRoutes)
 
 // Error handling
