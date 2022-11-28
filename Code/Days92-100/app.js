@@ -16,6 +16,7 @@ const productsRoutes = require('./routes/products.routes')
 const baseRoutes = require('./routes/base.routes')
 const adminRoutes = require('./routes/admin.routes')
 const cartRoutes = require('./routes/cart.routes')
+const ordersRoutes = require('./routes/orders.routes')
 
 const app = express()
 
@@ -56,6 +57,7 @@ app.use(productsRoutes)
 app.use('/cart', cartRoutes)
 
 app.use(protectRoutesMiddleWare)
+app.use('/orders', ordersRoutes)
 // Only paths that start with /admin
 app.use('/admin', adminRoutes)
 
