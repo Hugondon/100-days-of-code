@@ -20,7 +20,7 @@ async function addOrder(req, res, next) {
     return next(error)
   }
 
-  const order = new Order(cart, userDocument)
+  const order = new Order(res.locals.cart, userDocument)
 
   try {
     await order.save()

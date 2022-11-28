@@ -603,31 +603,48 @@ for this wonderful technique❤️. I also researched about setTimeout / clearTi
 
 **Link to work:** [Day Ninety-Two](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days92-100)
 
-## Day 93 | November 12th, Saturday | Online Shop Signup
+## Day 93 | November 13rd, Sunday | Online Shop Signup
 
 **Today's Progress**: Continued on the online shop project. Today I worked on developing the user signup feature (see image). This involved working with templates and CSS on the frontend and the routes for the requests as well as the connection to Mongodb on the backend
 
 **Link to work:** [Day Ninety-Three](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days92-100)
 
-## Day 94 | November 12th, Saturday | Online Shop Signup
+## Day 94 | November 14th, Monday | Online Shop Signup
 
 **Today's Progress**: Today I finished the login / signup feature for the online shop (a quick demo shown below). Although it might look simple, it really required plenty of frontend / backend concepts 🥲. My next step: admin account views / logic.
 
 **Link to work:** [Day Ninety-Four](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days92-100)
 
-## Day 95 | November 12th, Saturday | Online Shop Signup / Login
+## Day 95 | November 15th, Tuesday | Online Shop Signup / Login
 
 **Today's Progress**: Today I made the signup / login review more robust, as it can now detect if the users wants to create an account with a previously registered email, a password that's not at least 5 characters long, etc
 
 **Link to work:** [Day Ninety-Five](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days92-100)
 
-## Day 96 | November 12th, Saturday | Online Shop Responsiveness
+## Day 96 | November 16th, Wednesday | Online Shop Responsiveness
 
 **Today's Progress**: Today I worked on the responsiveness of the website with the features it has up until now
 **Link to work:** [Day Ninety-Six](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days92-100)
 
-## Day 97 | November 12th, Saturday | Online Shop Add Product Feature
+## Day 97 | November 23rd, Wednesday | Online Shop Add Product Feature
 
 **Today's Progress**: Today I resumed the online shop project. I worked on admin features, more specifically on giving the ability to add a new product that will be visualized. All this with the help of the following form in the frontend and multer + mongodb in the backend.
 
 **Link to work:** [Day Ninety-Seven](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days92-100)
+
+## Day 98 | November 25th, Saturday | Online Shop - More product features
+
+**Today's Progress**: Today I worked on the visualization of the already added products. Some work with templates and CSS once again :)
+
+**Link to work:** [Day Ninety-Eight](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days92-100)
+
+## Day 99 | November 26th, Saturday | Online Shop - Even More product features
+
+**Today's Progress**: Today I kept working on the online shop. I added the edit functionality for the products that are already added in the page (this involved creating new routes, adding functions to controllers, methods to the Product model, etc)
+
+**Link to work:** [Day Ninety-Nine](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days92-100)
+
+## Day 100 | November 27th, Sundays | Online Shop
+
+**Today's Progress**: Today I finished the online shop project. I worked on adding a shopping cart for the products and admin / user visualization of the requested orders after buying things. Here's an example video of an user flow to buy products:
+**Link to work:** [Day One Hundred](https://github.com/Hugondon/100-days-of-code/blob/master/Code/Days92-100)
